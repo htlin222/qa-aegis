@@ -1,0 +1,60 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install system tools
+        run: sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          npm install -g @argdown/cli
+
+      - name: Validate question bank (strict coverage)
+        run: python scripts/validate.py examples/maia/qa.yaml --strict
+
+      - name: Build kit
+        run: python scripts/build.py examples/maia/qa.yaml --out build/maia
+
+      - name: Check outputs
+        run: python scripts/check_outputs.py examples/maia/qa.yaml build/maia
+
+      - name: Package skill
+        run: python scripts/package.py --out dist
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: qa-aegis-${{ github.sha }}
+          path: |
+            dist/*.zip
+            build/maia/kit.html
+            build/maia/kit.pptx
+            build/maia/pocket.pdf
+          retention-days: 14

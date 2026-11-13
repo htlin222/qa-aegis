@@ -1,0 +1,74 @@
+name: Release
+
+on:
+  push:
+    tags: ["v*.*.*"]
+  workflow_dispatch:
+    inputs:
+      tag:
+        description: "Existing tag to (re)release, e.g. v0.1.0"
+        required: true
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      TAG: ${{ github.event.inputs.tag || github.ref_name }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: ${{ env.TAG }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Install
+        run: |
+          sudo apt-get update && sudo apt-get install -y --no-install-recommends librsvg2-bin
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
+          npm install -g @argdown/cli
+
+      - name: Tag must match VERSION and CHANGELOG
+        run: python scripts/package.py --tag "$TAG" --out dist
+
+      - name: Validate, build, check
+        run: |
+          python scripts/validate.py examples/maia/qa.yaml --strict
+          python scripts/build.py examples/maia/qa.yaml --out build/maia
+          python scripts/check_outputs.py examples/maia/qa.yaml build/maia
+
+      - name: Collect assets
+        run: |
+          mkdir -p assets
+          cp dist/qa-aegis-*.zip assets/
+          cp build/maia/kit.pptx  "assets/maia-kit-$TAG.pptx"
+          cp build/maia/kit.html  "assets/maia-kit-$TAG.html"
+          cp build/maia/pocket.pdf "assets/maia-pocket-$TAG.pdf"
+          python scripts/package.py --notes "$TAG" > notes.md
+          cat >> notes.md <<'EOF'
+
+          ---
+          **Install:** unzip `qa-aegis-*.zip` into your skills directory (it unpacks to `qa-aegis/` with `SKILL.md` at the root).
+          **Example assets:** the MAIA kit is a demonstration of the method, not clinical guidance; items marked ⚠ UNVERIFIED have not been checked.
+          EOF
+
+      - name: Publish GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          if gh release view "$TAG" >/dev/null 2>&1; then
+            gh release upload "$TAG" assets/* --clobber
+            gh release edit "$TAG" --notes-file notes.md
+          else
+            gh release create "$TAG" assets/* --title "qa-aegis $TAG" --notes-file notes.md --verify-tag
+          fi
