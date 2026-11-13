@@ -1,8 +1,21 @@
-# Aegis — Q&A Defense Kit
+<p align="center">
+  <img src="assets/logo.svg" width="180" alt="Aegis logo: a hoplite shield deflecting question marks inside a Greek-key tondo">
+</p>
 
-A Claude skill that prepares an oncology or hematology speaker for Q&A.
+<h1 align="center">Aegis — Q&A Defense Kit · QA 防禦術</h1>
 
-The new hazard in Q&A is the senior who asks an AI tool the same question during your talk and then checks you against it. Aegis anticipates that: for every question it records what the AI answer probably says, where it is thin, and how to answer from first principles with sourced numbers.
+<p align="center">
+  <a href="https://github.com/htlin222/qa-aegis/actions/workflows/ci.yml"><img src="https://github.com/htlin222/qa-aegis/actions/workflows/ci.yml/badge.svg?branch=develope" alt="CI"></a>
+  <a href="https://github.com/htlin222/qa-aegis/releases"><img src="https://img.shields.io/github/v/release/htlin222/qa-aegis?include_prereleases" alt="Release"></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-black" alt="MIT"></a>
+</p>
+
+<p align="center"><b>Out-answer the AI-armed questioner before you step on stage.</b><br>
+A Claude skill that turns a medical talk into a Q&A defense kit: anticipated audience questions, first-principles answers, sourced doses — as HTML, PPTX and a one-page PDF.</p>
+
+**中文簡介：** 專門對付「套殼考考男」——台下先問完 AI、再上來考講者的提問者。Aegis 用 **MECE** 把可能的問題一網打盡（5 大分支 × 5 種提問者）、用 **Cynefin** 決定每題該怎麼答、用 **Argdown** 畫出你論點的攻擊點，每個答案都從**第一性原理**出發、附上出處；劑量來自仿單，健保規定註明生效日。適用於腫瘤科、血液科演講、journal club、grand rounds、藥廠演講的**簡報問答準備**。
+
+**Keywords:** presentation Q&A preparation · anticipate audience questions · journal club · grand rounds · oncology / hematology talk · medical education · AI-assisted questioning · OpenEvidence · Claude skill · agent skill · 簡報問答 · 演講 Q&A 準備 · 考考男 · 第一性原理
 
 ## What it does
 
@@ -68,6 +81,7 @@ scripts/check_outputs.py CI smoke test of built outputs
 scripts/package.py       skill zip + release notes from CHANGELOG
 .github/workflows/       ci.yml, release.yml
 templates/               HTML and pocket-card templates
+assets/                  logo (SVG/PNG), favicon, social preview, generator
 examples/maia/           worked example
 ```
 

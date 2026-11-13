@@ -16,7 +16,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
 INCLUDE = ["SKILL.md", "README.md", "LICENSE", "VERSION", "CHANGELOG.md", "requirements.txt",
-           "references", "scripts", "templates", "examples"]
+           "references", "scripts", "templates", "examples", "assets"]
 EXCLUDE = re.compile(r"(/out/|__pycache__|\.pyc$|\.DS_Store$)")
 
 
