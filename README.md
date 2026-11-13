@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/logo.svg" width="180" alt="Aegis logo: a hoplite shield deflecting question marks inside a Greek-key tondo">
+  <img src="assets/social-preview.png" width="100%" alt="AEGIS — QA 防禦術 · Q&A Defense Kit: a geometric Greek-key shield deflecting questions; out-answer the AI-armed questioner (考考男)">
 </p>
 
 <h1 align="center">Aegis — Q&A Defense Kit · QA 防禦術</h1>
