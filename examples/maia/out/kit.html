@@ -1,0 +1,1440 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MAIA: Daratumumab-Rd in Transplant-Ineligible NDMM — Q&amp;A Defense Kit</title>
+<style>
+:root{--ink:#111;--mute:#555;--rule:#d6d6d6;--bg:#fff;--soft:#f4f4f4;--warn:#9a3412}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;font:15px/1.55 Arial,Helvetica,sans-serif;color:var(--ink);background:var(--bg)}
+a{color:inherit}
+.layout{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+nav.toc{position:sticky;top:0;align-self:start;height:100vh;overflow:auto;border-right:1px solid var(--rule);padding:20px 16px;font-size:13px}
+nav.toc h2{font-size:12px;letter-spacing:.08em;text-transform:uppercase;margin:0 0 10px}
+nav.toc a{display:block;text-decoration:none;padding:3px 0;color:var(--mute)}
+nav.toc a:hover{color:var(--ink)}
+nav.toc .sub{padding-left:12px}
+main{padding:0 40px 80px;max-width:1100px}
+header.cover{padding:40px 0 24px;border-bottom:2px solid var(--ink)}
+header.cover h1{font-size:30px;margin:0 0 4px}
+header.cover .sub{color:var(--mute)}
+header.cover ol{margin:16px 0 0;padding-left:20px}
+section{padding-top:28px}
+section>h2{font-size:22px;border-bottom:1px solid var(--ink);padding-bottom:6px}
+.bar{position:sticky;top:0;z-index:5;background:#fff;border-bottom:1px solid var(--rule);padding:10px 0;display:flex;flex-wrap:wrap;gap:8px;align-items:center}
+.bar input[type=search]{flex:1;min-width:200px;padding:7px 10px;border:1px solid var(--ink);font:inherit}
+.bar select,.bar button,.bar label{font:inherit;font-size:13px}
+.bar select{padding:6px;border:1px solid var(--ink);background:#fff}
+.bar button{padding:6px 10px;border:1px solid var(--ink);background:#fff;cursor:pointer}
+.bar button.on{background:var(--ink);color:#fff}
+.count{color:var(--mute);font-size:13px}
+table{border-collapse:collapse;width:100%;font-size:14px}
+th,td{text-align:left;padding:6px 8px;border-bottom:1px solid var(--rule);vertical-align:top}
+th{border-bottom:1px solid var(--ink);font-weight:700}
+td.num{text-align:center}
+.grid td.zero{color:#bbb}
+.map{border:1px solid var(--rule);padding:12px;overflow:auto;background:#fff}
+.map svg{max-width:100%;height:auto}
+article.q{border-top:1px solid var(--rule);padding:18px 0}
+article.q .meta{display:flex;flex-wrap:wrap;gap:6px;font-size:12px;align-items:center}
+.chip{border:1px solid var(--ink);padding:1px 7px;border-radius:2px;white-space:nowrap}
+.chip.id{background:var(--ink);color:#fff;font-weight:700}
+.risk{letter-spacing:2px;font-size:12px}
+.warnchip{border-color:var(--warn);color:var(--warn);font-weight:700}
+article.q h3{font-size:18px;margin:8px 0 10px;line-height:1.35}
+.principle{background:var(--ink);color:#fff;padding:10px 14px;margin:8px 0;font-weight:700}
+.principle small{display:block;font-weight:400;font-size:11px;letter-spacing:.08em;text-transform:uppercase;opacity:.75}
+.lbl{font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--mute);margin:12px 0 2px;font-weight:700}
+.answer{font-size:15.5px}
+.fu{margin:4px 0 0;padding-left:16px;border-left:3px solid var(--ink)}
+.fu p{margin:4px 0}
+.shell{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:10px}
+.shell>div{background:var(--soft);padding:10px 12px;font-size:14px}
+.src{font-size:12.5px;color:var(--mute)}
+.verify{color:var(--warn);font-weight:700;font-size:13px;margin-top:6px}
+.hidden{display:none!important}
+body.rehearse .reveal{display:none}
+body.rehearse article.q.open .reveal{display:block}
+body.rehearse article.q h3{cursor:pointer}
+body.rehearse article.q h3::after{content:"  ▸ reveal";font-size:12px;color:var(--mute);font-weight:400}
+body.rehearse article.q.open h3::after{content:"  ▾"}
+.top td:first-child{font-weight:700;width:52px}
+.legend{font-size:13px;color:var(--mute)}
+@media print{nav.toc,.bar{display:none}.layout{display:block}article.q{break-inside:avoid}}
+@media (max-width:820px){.layout{display:block}nav.toc{position:static;height:auto;border-right:0;border-bottom:1px solid var(--rule)}main{padding:0 16px 60px}.shell{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<div class="layout">
+<nav class="toc">
+  <h2>Contents</h2>
+  <a href="#overview">Overview</a>
+  <a href="#top10">Top 10 risks</a>
+  <a href="#map">Argument map</a>
+  <a href="#coverage">MECE coverage</a>
+  <a href="#cynefin">Cynefin triage</a>
+  <a href="#questions">Questions</a>
+  <a class="sub" href="#b-credible">Credible (14)</a><a class="sub" href="#b-applicable">Applicable (10)</a><a class="sub" href="#b-worth">Worth it (10)</a><a class="sub" href="#b-position">Position (11)</a><a class="sub" href="#b-practice">Practice (20)</a>
+  <a href="#dose">Dose quick reference</a>
+  <a href="#unverified">⚠ Unverified (24)</a>
+  <a href="#refs">References</a>
+</nav>
+<main>
+<header class="cover" id="overview">
+  <div class="sub">Q&amp;A Defense Kit</div>
+  <h1>MAIA: Daratumumab-Rd in Transplant-Ineligible NDMM</h1>
+  <div class="sub">Speaker name, Institution · Talk 2026-11-20 · Sources checked 2026-11-13 · 65 questions</div>
+  <ol><li>D-Rd prolongs overall survival versus Rd: median OS 90.3 vs 64.1 months at 7.5 years of follow-up.</li><li>The relative benefit holds in patients aged 75+ and with high-risk cytogenetics; in the frail, dexamethasone-sparing DR is the evidence-based option.</li><li>D-Rd remains a first-line backbone; fit patients can add bortezomib (D-VRd / Isa-VRd).</li><li>In Taiwan, NHI rules place daratumumab at relapse, not up front, for transplant-ineligible patients.</li></ol>
+</header>
+
+<section id="top10">
+  <h2>Top 10 risks</h2>
+  <table class="top"><thead><tr><th>ID</th><th>Question</th><th>Core answer</th><th>Risk</th></tr></thead><tbody>
+  <tr><td><a href="#C01">C01</a></td><td>Rd isn&#39;t a real comparator anymore — VRd already beat it in SWOG S0777. Didn&#39;t MAIA just beat a straw man?</td><td>Rd was the label standard at enrolment (2015-17). D-Rd beats Rd; vs VRd only an Rd-anchored ITC (HR 0.59). Triplet vs quad = CEPHEUS/IMROZ.</td><td class="num">5</td></tr><tr><td><a href="#C04">C04</a></td><td>OS depends on what control patients received at relapse. How many Rd patients later got an anti-CD38 antibody?</td><td>OS compares &#39;anti-CD38 first&#39; vs &#39;Rd first, then era access&#39;. TTNT HR 0.51; gain held 7 yrs. Claim = up-front use, not &#39;timing never matters&#39;.</td><td class="num">5</td></tr><tr><td><a href="#A01">A01</a></td><td>Only a tiny fraction of MAIA patients were Asian. Why should this apply to Taiwanese patients?</td><td>1% Asian in MAIA. Efficacy (CD38 biology) extrapolates; safety is personalised: dex 20 mg if BMI &lt;18.5, zoster prophylaxis, early infection watch.</td><td class="num">5</td></tr><tr><td><a href="#A02">A02</a></td><td>My patient is 84 and frail. D-Rd, or something gentler?</td><td>Frailty, not age. MAIA frail: PFS HR 0.64, OS CI crosses 1. IFM2017-03 (median age 81): DR, dex only 2 cycles, PFS 53.4 vs 22.5 mo.</td><td class="num">5</td></tr><tr><td><a href="#W01">W01</a></td><td>OS hazard ratio 0.67 — so a third fewer patients die?</td><td>HR is relative. Absolute: 7-yr OS 53.1% vs 39.3% (≈14 points, NNT ≈7, speaker&#39;s arithmetic). Median OS 90.3 vs 64.1 mo.</td><td class="num">5</td></tr><tr><td><a href="#W02">W02</a></td><td>Treatment until progression for five or more years. Who pays for that in Taiwan?</td><td>NHI 9.78 (eff. 2025-09-01): frontline dara only with VTd in transplant-eligible; otherwise at relapse with Rd/Vd. Rd frontline capped at 24 cycles (9.43). D-Rd up front ≈ self-pay.</td><td class="num">5</td></tr><tr><td><a href="#P01">P01</a></td><td>Isn&#39;t D-VRd now the standard for transplant-ineligible patients? The FDA approved it.</td><td>Quads beat VRd (CEPHEUS HR 0.57, IMROZ 0.60), not D-Rd; OS immature. IFM 2026: DRd backbone; fit → add V; frail → DR.</td><td class="num">5</td></tr><tr><td><a href="#R01">R01</a></td><td>What is the daratumumab IV dose and schedule in D-Rd?</td><td>16 mg/kg IV: weekly wk 1-8, q2w wk 9-24, q4w wk 25+ until PD (label §2.2).</td><td class="num">5</td></tr><tr><td><a href="#R02">R02</a></td><td>CrCl is 45. What lenalidomide dose?</td><td>CrCl 30-60: lenalidomide 10 mg daily D1-21; may escalate to 15 mg after 2 cycles. &lt;30: 15 mg q48h; dialysis 5 mg daily post-HD.</td><td class="num">5</td></tr><tr><td><a href="#R06">R06</a></td><td>We started daratumumab without a type and screen and now the patient needs a transfusion. What do we do?</td><td>ABO/RhD typing unaffected. Emergency: non-crossmatched ABO/RhD-compatible RBCs. Tell blood bank → DTT-treated cells. IAT interference ≤6 mo.</td><td class="num">5</td></tr>
+  </tbody></table>
+</section>
+
+<section id="map">
+  <h2>Argument map</h2>
+  <p class="legend">Core claims, their support (green arrows) and attacks (red arrows). Attack types: rebut = the conclusion; undercut = the inference; undermine = a premise. Every attack is answered by at least one question below.</p>
+  <h3 style="font-size:15px;margin:18px 0 6px">1. D-Rd prolongs OS vs Rd in transplant-ineligible NDMM.</h3><div class="map"><svg width="720pt" height="198pt"
+ viewBox="0.00 0.00 720.00 198.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(0.840633 0.840633) rotate(0) translate(4 231.76)">
+<title>Argument Map</title>
+<!-- n0 -->
+<g id="node1" class="node">
+<title>n0</title>
+<g id="a_node1"><a xlink:title="D&#45;Rd prolongs OS vs Rd in transplant&#45;ineligible NDMM.">
+<path fill="white" stroke="#1b9e77" stroke-width="2" d="M507.5,-227.76C507.5,-227.76 335.66,-227.76 335.66,-227.76 329.66,-227.76 323.66,-221.76 323.66,-215.76 323.66,-215.76 323.66,-187.84 323.66,-187.84 323.66,-181.84 329.66,-175.84 335.66,-175.84 335.66,-175.84 507.5,-175.84 507.5,-175.84 513.5,-175.84 519.5,-181.84 519.5,-187.84 519.5,-187.84 519.5,-215.76 519.5,-215.76 519.5,-221.76 513.5,-227.76 507.5,-227.76"/>
+<text xml:space="preserve" text-anchor="start" x="396.57" y="-213.8" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">OS benefit</text>
+<text xml:space="preserve" text-anchor="start" x="361.28" y="-195.8" font-family="arial" font-size="10.00" fill="#111111">D&#45;Rd prolongs OS vs Rd in</text>
+<text xml:space="preserve" text-anchor="start" x="358.78" y="-183.8" font-family="arial" font-size="10.00" fill="#111111"> transplant&#45;ineligible NDMM.</text>
+</a>
+</g>
+</g>
+<!-- n1 -->
+<g id="node2" class="node">
+<title>n1</title>
+<g id="a_node2"><a xlink:title="Median OS 90.3 vs 64.1 mo; HR 0.67 at 89 mo.">
+<path fill="#ffffff" stroke="#111111" d="M185.15,-139.84C185.15,-139.84 12,-139.84 12,-139.84 6,-139.84 0,-133.84 0,-127.84 0,-127.84 0,-99.92 0,-99.92 0,-93.92 6,-87.92 12,-87.92 12,-87.92 185.15,-87.92 185.15,-87.92 191.15,-87.92 197.15,-93.92 197.15,-99.92 197.15,-99.92 197.15,-127.84 197.15,-127.84 197.15,-133.84 191.15,-139.84 185.15,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="78.3" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Final OS</text>
+<text xml:space="preserve" text-anchor="start" x="9.92" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">Median OS 90.3 vs 64.1 mo; HR 0.67 at</text>
+<text xml:space="preserve" text-anchor="start" x="81.9" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> 89 mo.</text>
+</a>
+</g>
+</g>
+<!-- n1&#45;&gt;n0 -->
+<g id="edge1" class="edge">
+<title>n1&#45;&gt;n0</title>
+<g id="a_edge1"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M194.18,-140.31C232.1,-150.4 275.87,-162.04 314.83,-172.4"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="313.92,-175.78 324.48,-174.97 315.72,-169.02 313.92,-175.78"/>
+</a>
+</g>
+</g>
+<!-- n2 -->
+<g id="node3" class="node">
+<title>n2</title>
+<g id="a_node3"><a xlink:title="Interim OS crossed its boundary (p=0.0013).">
+<path fill="#ffffff" stroke="#111111" d="M398.5,-139.84C398.5,-139.84 226.66,-139.84 226.66,-139.84 220.66,-139.84 214.66,-133.84 214.66,-127.84 214.66,-127.84 214.66,-99.92 214.66,-99.92 214.66,-93.92 220.66,-87.92 226.66,-87.92 226.66,-87.92 398.5,-87.92 398.5,-87.92 404.5,-87.92 410.5,-93.92 410.5,-99.92 410.5,-99.92 410.5,-127.84 410.5,-127.84 410.5,-133.84 404.5,-139.84 398.5,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="275.34" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Interim crossed</text>
+<text xml:space="preserve" text-anchor="start" x="241.16" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">Interim OS crossed its boundary</text>
+<text xml:space="preserve" text-anchor="start" x="285.48" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> (p=0.0013).</text>
+</a>
+</g>
+</g>
+<!-- n2&#45;&gt;n0 -->
+<g id="edge2" class="edge">
+<title>n2&#45;&gt;n0</title>
+<g id="a_edge2"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M344.69,-140.19C355.9,-149.03 368.64,-159.07 380.48,-168.4"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="378.11,-170.99 388.13,-174.43 382.44,-165.49 378.11,-170.99"/>
+</a>
+</g>
+</g>
+<!-- n3 -->
+<g id="node4" class="node">
+<title>n3</title>
+<g id="a_node4"><a xlink:title="Rd is not today&#39;s comparator. [undermine]">
+<path fill="#ffffff" stroke="#111111" d="M622.17,-133.84C622.17,-133.84 440.99,-133.84 440.99,-133.84 434.99,-133.84 428.99,-127.84 428.99,-121.84 428.99,-121.84 428.99,-105.92 428.99,-105.92 428.99,-99.92 434.99,-93.92 440.99,-93.92 440.99,-93.92 622.17,-93.92 622.17,-93.92 628.17,-93.92 634.17,-99.92 634.17,-105.92 634.17,-105.92 634.17,-121.84 634.17,-121.84 634.17,-127.84 628.17,-133.84 622.17,-133.84"/>
+<text xml:space="preserve" text-anchor="start" x="504.91" y="-119.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Old control</text>
+<text xml:space="preserve" text-anchor="start" x="438.91" y="-101.88" font-family="arial" font-size="10.00" fill="#111111">Rd is not today&#39;s comparator. [undermine]</text>
+</a>
+</g>
+</g>
+<!-- n3&#45;&gt;n0 -->
+<g id="edge4" class="edge">
+<title>n3&#45;&gt;n0</title>
+<g id="a_edge4"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M506.89,-134.16C493.99,-144.24 477.85,-156.85 463.09,-168.38"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="461.03,-165.54 455.31,-174.45 465.34,-171.06 461.03,-165.54"/>
+</a>
+</g>
+</g>
+<!-- n4 -->
+<g id="node5" class="node">
+<title>n4</title>
+<g id="a_node5"><a xlink:title="Rd was the label standard at enrolment (2015&#45;17). [reply]">
+<path fill="#ffffff" stroke="#111111" d="M617.5,-51.92C617.5,-51.92 445.66,-51.92 445.66,-51.92 439.66,-51.92 433.66,-45.92 433.66,-39.92 433.66,-39.92 433.66,-12 433.66,-12 433.66,-6 439.66,0 445.66,0 445.66,0 617.5,0 617.5,0 623.5,0 629.5,-6 629.5,-12 629.5,-12 629.5,-39.92 629.5,-39.92 629.5,-45.92 623.5,-51.92 617.5,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="514.07" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Era&#45;fair</text>
+<text xml:space="preserve" text-anchor="start" x="444.58" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Rd was the label standard at enrolment</text>
+<text xml:space="preserve" text-anchor="start" x="492.11" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> (2015&#45;17). [reply]</text>
+</a>
+</g>
+</g>
+<!-- n4&#45;&gt;n3 -->
+<g id="edge3" class="edge">
+<title>n4&#45;&gt;n3</title>
+<g id="a_edge3"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M531.58,-52.27C531.58,-61.64 531.58,-72.35 531.58,-82.14"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="528.08,-81.96 531.58,-91.96 535.08,-81.96 528.08,-81.96"/>
+</a>
+</g>
+</g>
+<!-- n5 -->
+<g id="node6" class="node">
+<title>n5</title>
+<g id="a_node6"><a xlink:title="OS depends on anti&#45;CD38 access at relapse. [undercut]">
+<path fill="#ffffff" stroke="#111111" d="M836.5,-139.84C836.5,-139.84 664.66,-139.84 664.66,-139.84 658.66,-139.84 652.66,-133.84 652.66,-127.84 652.66,-127.84 652.66,-99.92 652.66,-99.92 652.66,-93.92 658.66,-87.92 664.66,-87.92 664.66,-87.92 836.5,-87.92 836.5,-87.92 842.5,-87.92 848.5,-93.92 848.5,-99.92 848.5,-99.92 848.5,-127.84 848.5,-127.84 848.5,-133.84 842.5,-139.84 836.5,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="720.28" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Later access</text>
+<text xml:space="preserve" text-anchor="start" x="669.42" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">OS depends on anti&#45;CD38 access at</text>
+<text xml:space="preserve" text-anchor="start" x="707.77" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> relapse. [undercut]</text>
+</a>
+</g>
+</g>
+<!-- n5&#45;&gt;n0 -->
+<g id="edge6" class="edge">
+<title>n5&#45;&gt;n0</title>
+<g id="a_edge6"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M653.2,-140.31C614.49,-150.42 569.8,-162.09 530.06,-172.47"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="529.24,-169.07 520.45,-174.98 531.01,-175.84 529.24,-169.07"/>
+</a>
+</g>
+</g>
+<!-- n6 -->
+<g id="node7" class="node">
+<title>n6</title>
+<g id="a_node7"><a xlink:title="Claim is about up&#45;front use under trial&#45;era access. [concede]">
+<path fill="#ffffff" stroke="#111111" d="M836.5,-51.92C836.5,-51.92 664.66,-51.92 664.66,-51.92 658.66,-51.92 652.66,-45.92 652.66,-39.92 652.66,-39.92 652.66,-12 652.66,-12 652.66,-6 658.66,0 664.66,0 664.66,0 836.5,0 836.5,0 842.5,0 848.5,-6 848.5,-12 848.5,-12 848.5,-39.92 848.5,-39.92 848.5,-45.92 842.5,-51.92 836.5,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="721.41" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Conceded A</text>
+<text xml:space="preserve" text-anchor="start" x="676.65" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Claim is about up&#45;front use under</text>
+<text xml:space="preserve" text-anchor="start" x="690.83" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> trial&#45;era access. [concede]</text>
+</a>
+</g>
+</g>
+<!-- n6&#45;&gt;n5 -->
+<g id="edge5" class="edge">
+<title>n6&#45;&gt;n5</title>
+<g id="a_edge5"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M750.58,-52.27C750.58,-59.72 750.58,-68.03 750.58,-76.05"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="747.08,-75.94 750.58,-85.94 754.08,-75.94 747.08,-75.94"/>
+</a>
+</g>
+</g>
+</g>
+</svg>
+</div><h3 style="font-size:15px;margin:18px 0 6px">2. The benefit holds for older and high-risk patients.</h3><div class="map"><svg width="634pt" height="236pt"
+ viewBox="0.00 0.00 634.00 236.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 231.76)">
+<title>Argument Map</title>
+<!-- n0 -->
+<g id="node1" class="node">
+<title>n0</title>
+<g id="a_node1"><a xlink:title="The benefit holds for older and high&#45;risk patients.">
+<path fill="white" stroke="#1b9e77" stroke-width="2" d="M400.47,-227.76C400.47,-227.76 228.63,-227.76 228.63,-227.76 222.63,-227.76 216.63,-221.76 216.63,-215.76 216.63,-215.76 216.63,-187.84 216.63,-187.84 216.63,-181.84 222.63,-175.84 228.63,-175.84 228.63,-175.84 400.47,-175.84 400.47,-175.84 406.47,-175.84 412.47,-181.84 412.47,-187.84 412.47,-187.84 412.47,-215.76 412.47,-215.76 412.47,-221.76 406.47,-227.76 400.47,-227.76"/>
+<text xml:space="preserve" text-anchor="start" x="277.05" y="-213.8" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Applies broadly</text>
+<text xml:space="preserve" text-anchor="start" x="246.73" y="-195.8" font-family="arial" font-size="10.00" fill="#111111">The benefit holds for older and</text>
+<text xml:space="preserve" text-anchor="start" x="273.98" y="-183.8" font-family="arial" font-size="10.00" fill="#111111"> high&#45;risk patients.</text>
+</a>
+</g>
+</g>
+<!-- n1 -->
+<g id="node2" class="node">
+<title>n1</title>
+<g id="a_node2"><a xlink:title="PFS HR 0.59 in age 75+ and in high&#45;risk cytogenetics.">
+<path fill="#ffffff" stroke="#111111" d="M187.11,-139.84C187.11,-139.84 12,-139.84 12,-139.84 6,-139.84 0,-133.84 0,-127.84 0,-127.84 0,-99.92 0,-99.92 0,-93.92 6,-87.92 12,-87.92 12,-87.92 187.11,-87.92 187.11,-87.92 193.11,-87.92 199.11,-93.92 199.11,-99.92 199.11,-99.92 199.11,-127.84 199.11,-127.84 199.11,-133.84 193.11,-139.84 187.11,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="73.17" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Subgroups</text>
+<text xml:space="preserve" text-anchor="start" x="9.92" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">PFS HR 0.59 in age 75+ and in high&#45;risk</text>
+<text xml:space="preserve" text-anchor="start" x="68.98" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> cytogenetics.</text>
+</a>
+</g>
+</g>
+<!-- n1&#45;&gt;n0 -->
+<g id="edge1" class="edge">
+<title>n1&#45;&gt;n0</title>
+<g id="a_edge1"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M163.19,-140.31C187.46,-150.01 215.33,-161.15 240.49,-171.2"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="239.09,-174.41 249.68,-174.87 241.69,-167.91 239.09,-174.41"/>
+</a>
+</g>
+</g>
+<!-- n2 -->
+<g id="node3" class="node">
+<title>n2</title>
+<g id="a_node3"><a xlink:title="Frail OS HR 0.79, CI crosses 1. [undermine]">
+<path fill="#ffffff" stroke="#111111" d="M400.47,-139.84C400.47,-139.84 228.63,-139.84 228.63,-139.84 222.63,-139.84 216.63,-133.84 216.63,-127.84 216.63,-127.84 216.63,-99.92 216.63,-99.92 216.63,-93.92 222.63,-87.92 228.63,-87.92 228.63,-87.92 400.47,-87.92 400.47,-87.92 406.47,-87.92 412.47,-93.92 412.47,-99.92 412.47,-99.92 412.47,-127.84 412.47,-127.84 412.47,-133.84 406.47,-139.84 400.47,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="295.38" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Frail OS</text>
+<text xml:space="preserve" text-anchor="start" x="244.53" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">Frail OS HR 0.79, CI crosses 1.</text>
+<text xml:space="preserve" text-anchor="start" x="286.76" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> [undermine]</text>
+</a>
+</g>
+</g>
+<!-- n2&#45;&gt;n0 -->
+<g id="edge3" class="edge">
+<title>n2&#45;&gt;n0</title>
+<g id="a_edge3"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M314.55,-140.19C314.55,-147.64 314.55,-155.95 314.55,-163.97"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="311.05,-163.86 314.55,-173.86 318.05,-163.86 311.05,-163.86"/>
+</a>
+</g>
+</g>
+<!-- n3 -->
+<g id="node4" class="node">
+<title>n3</title>
+<g id="a_node4"><a xlink:title="Dex&#45;sparing DR beat Rd in frail pts (IFM2017&#45;03). [reply]">
+<path fill="#ffffff" stroke="#111111" d="M400.47,-51.92C400.47,-51.92 228.63,-51.92 228.63,-51.92 222.63,-51.92 216.63,-45.92 216.63,-39.92 216.63,-39.92 216.63,-12 216.63,-12 216.63,-6 222.63,0 228.63,0 228.63,0 400.47,0 400.47,0 406.47,0 412.47,-6 412.47,-12 412.47,-12 412.47,-39.92 412.47,-39.92 412.47,-45.92 406.47,-51.92 400.47,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="284.55" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Frail options</text>
+<text xml:space="preserve" text-anchor="start" x="237.3" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Dex&#45;sparing DR beat Rd in frail pts</text>
+<text xml:space="preserve" text-anchor="start" x="266.48" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> (IFM2017&#45;03). [reply]</text>
+</a>
+</g>
+</g>
+<!-- n3&#45;&gt;n2 -->
+<g id="edge2" class="edge">
+<title>n3&#45;&gt;n2</title>
+<g id="a_edge2"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M314.55,-52.27C314.55,-59.72 314.55,-68.03 314.55,-76.05"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="311.05,-75.94 314.55,-85.94 318.05,-75.94 311.05,-75.94"/>
+</a>
+</g>
+</g>
+<!-- n4 -->
+<g id="node5" class="node">
+<title>n4</title>
+<g id="a_node5"><a xlink:title="Only 1% of MAIA patients were Asian. [undermine]">
+<path fill="#ffffff" stroke="#111111" d="M614.47,-139.84C614.47,-139.84 442.63,-139.84 442.63,-139.84 436.63,-139.84 430.63,-133.84 430.63,-127.84 430.63,-127.84 430.63,-99.92 430.63,-99.92 430.63,-93.92 436.63,-87.92 442.63,-87.92 442.63,-87.92 614.47,-87.92 614.47,-87.92 620.47,-87.92 626.47,-93.92 626.47,-99.92 626.47,-99.92 626.47,-127.84 626.47,-127.84 626.47,-133.84 620.47,-139.84 614.47,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="506.32" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Asian 1%</text>
+<text xml:space="preserve" text-anchor="start" x="444.07" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">Only 1% of MAIA patients were Asian.</text>
+<text xml:space="preserve" text-anchor="start" x="500.76" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> [undermine]</text>
+</a>
+</g>
+</g>
+<!-- n4&#45;&gt;n0 -->
+<g id="edge5" class="edge">
+<title>n4&#45;&gt;n0</title>
+<g id="a_edge5"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M465.22,-140.31C441.06,-150.01 413.32,-161.15 388.28,-171.2"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="387.11,-167.9 379.13,-174.87 389.72,-174.39 387.11,-167.9"/>
+</a>
+</g>
+</g>
+<!-- n5 -->
+<g id="node6" class="node">
+<title>n5</title>
+<g id="a_node6"><a xlink:title="Efficacy extrapolated; safety personalised. [concede]">
+<path fill="#ffffff" stroke="#111111" d="M614.47,-51.92C614.47,-51.92 442.63,-51.92 442.63,-51.92 436.63,-51.92 430.63,-45.92 430.63,-39.92 430.63,-39.92 430.63,-12 430.63,-12 430.63,-6 436.63,0 442.63,0 442.63,0 614.47,0 614.47,0 620.47,0 626.47,-6 626.47,-12 626.47,-12 626.47,-39.92 626.47,-39.92 626.47,-45.92 620.47,-51.92 614.47,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="499.38" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Conceded B</text>
+<text xml:space="preserve" text-anchor="start" x="466.02" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Efficacy extrapolated; safety</text>
+<text xml:space="preserve" text-anchor="start" x="474.35" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> personalised. [concede]</text>
+</a>
+</g>
+</g>
+<!-- n5&#45;&gt;n4 -->
+<g id="edge4" class="edge">
+<title>n5&#45;&gt;n4</title>
+<g id="a_edge4"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M528.55,-52.27C528.55,-59.72 528.55,-68.03 528.55,-76.05"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="525.05,-75.94 528.55,-85.94 532.05,-75.94 525.05,-75.94"/>
+</a>
+</g>
+</g>
+</g>
+</svg>
+</div><h3 style="font-size:15px;margin:18px 0 6px">3. D-Rd remains a first-line backbone.</h3><div class="map"><svg width="432pt" height="224pt"
+ viewBox="0.00 0.00 432.00 224.00" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 219.76)">
+<title>Argument Map</title>
+<!-- n0 -->
+<g id="node1" class="node">
+<title>n0</title>
+<g id="a_node1"><a xlink:title="D&#45;Rd remains a first&#45;line backbone.">
+<path fill="white" stroke="#1b9e77" stroke-width="2" d="M300.88,-215.76C300.88,-215.76 129.04,-215.76 129.04,-215.76 123.04,-215.76 117.04,-209.76 117.04,-203.76 117.04,-203.76 117.04,-187.84 117.04,-187.84 117.04,-181.84 123.04,-175.84 129.04,-175.84 129.04,-175.84 300.88,-175.84 300.88,-175.84 306.88,-175.84 312.88,-181.84 312.88,-187.84 312.88,-187.84 312.88,-203.76 312.88,-203.76 312.88,-209.76 306.88,-215.76 300.88,-215.76"/>
+<text xml:space="preserve" text-anchor="start" x="179.11" y="-201.8" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Still a standard</text>
+<text xml:space="preserve" text-anchor="start" x="136.59" y="-183.8" font-family="arial" font-size="10.00" fill="#111111">D&#45;Rd remains a first&#45;line backbone.</text>
+</a>
+</g>
+</g>
+<!-- n1 -->
+<g id="node2" class="node">
+<title>n1</title>
+<g id="a_node2"><a xlink:title="D&#45;VRd and Isa&#45;VRd beat VRd (CEPHEUS, IMROZ). [rebut]">
+<path fill="#ffffff" stroke="#111111" d="M197.91,-139.84C197.91,-139.84 12,-139.84 12,-139.84 6,-139.84 0,-133.84 0,-127.84 0,-127.84 0,-99.92 0,-99.92 0,-93.92 6,-87.92 12,-87.92 12,-87.92 197.91,-87.92 197.91,-87.92 203.91,-87.92 209.91,-93.92 209.91,-99.92 209.91,-99.92 209.91,-127.84 209.91,-127.84 209.91,-133.84 203.91,-139.84 197.91,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="75.51" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Quadruplets</text>
+<text xml:space="preserve" text-anchor="start" x="9.92" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">D&#45;VRd and Isa&#45;VRd beat VRd (CEPHEUS,</text>
+<text xml:space="preserve" text-anchor="start" x="68.84" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> IMROZ). [rebut]</text>
+</a>
+</g>
+</g>
+<!-- n1&#45;&gt;n0 -->
+<g id="edge2" class="edge">
+<title>n1&#45;&gt;n0</title>
+<g id="a_edge2"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M139.76,-140.17C152.3,-149.28 166.47,-159.57 179.09,-168.74"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="177.03,-171.57 187.17,-174.61 181.14,-165.91 177.03,-171.57"/>
+</a>
+</g>
+</g>
+<!-- n2 -->
+<g id="node3" class="node">
+<title>n2</title>
+<g id="a_node3"><a xlink:title="Quads tested vs VRd, not D&#45;Rd; add V for fit patients. [reply]">
+<path fill="#ffffff" stroke="#111111" d="M190.88,-51.92C190.88,-51.92 19.04,-51.92 19.04,-51.92 13.04,-51.92 7.04,-45.92 7.04,-39.92 7.04,-39.92 7.04,-12 7.04,-12 7.04,-6 13.04,0 19.04,0 19.04,0 190.88,0 190.88,0 196.88,0 202.88,-6 202.88,-12 202.88,-12 202.88,-39.92 202.88,-39.92 202.88,-45.92 196.88,-51.92 190.88,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="87.45" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Fitness</text>
+<text xml:space="preserve" text-anchor="start" x="19.08" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Quads tested vs VRd, not D&#45;Rd; add V</text>
+<text xml:space="preserve" text-anchor="start" x="57.16" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> for fit patients. [reply]</text>
+</a>
+</g>
+</g>
+<!-- n2&#45;&gt;n1 -->
+<g id="edge1" class="edge">
+<title>n2&#45;&gt;n1</title>
+<g id="a_edge1"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M104.96,-52.27C104.96,-59.72 104.96,-68.03 104.96,-76.05"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="101.46,-75.94 104.96,-85.94 108.46,-75.94 101.46,-75.94"/>
+</a>
+</g>
+</g>
+<!-- n3 -->
+<g id="node4" class="node">
+<title>n3</title>
+<g id="a_node4"><a xlink:title="Frontline D&#45;Rd not reimbursed in Taiwan. [undermine]">
+<path fill="#ffffff" stroke="#111111" d="M411.88,-139.84C411.88,-139.84 240.04,-139.84 240.04,-139.84 234.04,-139.84 228.04,-133.84 228.04,-127.84 228.04,-127.84 228.04,-99.92 228.04,-99.92 228.04,-93.92 234.04,-87.92 240.04,-87.92 240.04,-87.92 411.88,-87.92 411.88,-87.92 417.88,-87.92 423.88,-93.92 423.88,-99.92 423.88,-99.92 423.88,-127.84 423.88,-127.84 423.88,-133.84 417.88,-139.84 411.88,-139.84"/>
+<text xml:space="preserve" text-anchor="start" x="317.35" y="-125.88" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">NHI</text>
+<text xml:space="preserve" text-anchor="start" x="253.43" y="-107.88" font-family="arial" font-size="10.00" fill="#111111">Frontline D&#45;Rd not reimbursed in</text>
+<text xml:space="preserve" text-anchor="start" x="279.26" y="-95.88" font-family="arial" font-size="10.00" fill="#111111"> Taiwan. [undermine]</text>
+</a>
+</g>
+</g>
+<!-- n3&#45;&gt;n0 -->
+<g id="edge4" class="edge">
+<title>n3&#45;&gt;n0</title>
+<g id="a_edge4"><a xlink:title="attack">
+<path fill="none" stroke="#ff0000" d="M290.84,-140.17C278.06,-149.37 263.61,-159.77 250.77,-169.01"/>
+<polygon fill="#ff0000" stroke="#ff0000" points="249.05,-165.94 242.98,-174.62 253.14,-171.62 249.05,-165.94"/>
+</a>
+</g>
+</g>
+<!-- n4 -->
+<g id="node5" class="node">
+<title>n4</title>
+<g id="a_node5"><a xlink:title="Locally, the realistic choice is often Rd then D at relapse. [concede]">
+<path fill="#ffffff" stroke="#111111" d="M411.88,-51.92C411.88,-51.92 240.04,-51.92 240.04,-51.92 234.04,-51.92 228.04,-45.92 228.04,-39.92 228.04,-39.92 228.04,-12 228.04,-12 228.04,-6 234.04,0 240.04,0 240.04,0 411.88,0 411.88,0 417.88,0 423.88,-6 423.88,-12 423.88,-12 423.88,-39.92 423.88,-39.92 423.88,-45.92 417.88,-51.92 411.88,-51.92"/>
+<text xml:space="preserve" text-anchor="start" x="296.79" y="-37.96" font-family="arial" font-weight="bold" font-size="10.00" fill="#111111">Conceded C</text>
+<text xml:space="preserve" text-anchor="start" x="248.97" y="-19.96" font-family="arial" font-size="10.00" fill="#111111">Locally, the realistic choice is often</text>
+<text xml:space="preserve" text-anchor="start" x="254.25" y="-7.96" font-family="arial" font-size="10.00" fill="#111111"> Rd then D at relapse. [concede]</text>
+</a>
+</g>
+</g>
+<!-- n4&#45;&gt;n3 -->
+<g id="edge3" class="edge">
+<title>n4&#45;&gt;n3</title>
+<g id="a_edge3"><a xlink:title="support">
+<path fill="none" stroke="#00ff00" d="M325.96,-52.27C325.96,-59.72 325.96,-68.03 325.96,-76.05"/>
+<polygon fill="#00ff00" stroke="#00ff00" points="322.46,-75.94 325.96,-85.94 329.46,-75.94 322.46,-75.94"/>
+</a>
+</g>
+</g>
+</g>
+</svg>
+</div>
+</section>
+
+<section id="coverage">
+  <h2>MECE coverage</h2>
+  <table class="grid"><thead><tr><th>Branch</th><th class="num">AI-armed senior</th><th class="num">Statistician</th><th class="num">Community oncologist</th><th class="num">Clinical pharmacist</th><th class="num">Payer</th><th class="num">Total</th></tr></thead><tbody>
+  <tr><td><b>Credible</b><br><span class="legend">Is the result true?</span></td><td class="num">5</td><td class="num">6</td><td class="num">1</td><td class="num">1</td><td class="num">1</td><td class="num"><b>14</b></td></tr><tr><td><b>Applicable</b><br><span class="legend">Does it apply to my patient?</span></td><td class="num">1</td><td class="num">2</td><td class="num">5</td><td class="num">1</td><td class="num">1</td><td class="num"><b>10</b></td></tr><tr><td><b>Worth it</b><br><span class="legend">Is it worth it?</span></td><td class="num">2</td><td class="num">1</td><td class="num">3</td><td class="num">1</td><td class="num">3</td><td class="num"><b>10</b></td></tr><tr><td><b>Position</b><br><span class="legend">Where does it sit?</span></td><td class="num">3</td><td class="num">2</td><td class="num">3</td><td class="num">1</td><td class="num">2</td><td class="num"><b>11</b></td></tr><tr><td><b>Practice</b><br><span class="legend">How do I actually give it?</span></td><td class="num">1</td><td class="num">1</td><td class="num">7</td><td class="num">10</td><td class="num">1</td><td class="num"><b>20</b></td></tr>
+  <tr><td><b>Total</b></td><td class="num"><b>12</b></td><td class="num"><b>12</b></td><td class="num"><b>19</b></td><td class="num"><b>14</b></td><td class="num"><b>8</b></td><td class="num"><b>65</b></td></tr>
+  </tbody></table>
+</section>
+
+<section id="cynefin">
+  <h2>Cynefin triage</h2>
+  <table><thead><tr><th>Domain</th><th>Opener</th><th class="num">n</th><th>Questions</th></tr></thead><tbody>
+  <tr><td><b>Clear</b></td><td>“The data are clear: …”</td><td class="num">30</td><td class="legend"><a href="#C02">C02</a>, <a href="#C03">C03</a>, <a href="#C06">C06</a>, <a href="#C09">C09</a>, <a href="#C13">C13</a>, <a href="#A05">A05</a>, <a href="#A08">A08</a>, <a href="#A09">A09</a>, <a href="#A10">A10</a>, <a href="#W01">W01</a>, <a href="#W04">W04</a>, <a href="#W05">W05</a>, <a href="#W07">W07</a>, <a href="#W08">W08</a>, <a href="#P04">P04</a>, <a href="#P07">P07</a>, <a href="#R01">R01</a>, <a href="#R02">R02</a>, <a href="#R03">R03</a>, <a href="#R04">R04</a>, <a href="#R05">R05</a>, <a href="#R07">R07</a>, <a href="#R10">R10</a>, <a href="#R11">R11</a>, <a href="#R12">R12</a>, <a href="#R13">R13</a>, <a href="#R16">R16</a>, <a href="#R17">R17</a>, <a href="#R18">R18</a>, <a href="#R19">R19</a></td></tr><tr><td><b>Complicated</b></td><td>“It depends on X — here&#39;s how I decide…”</td><td class="num">27</td><td class="legend"><a href="#C01">C01</a>, <a href="#C04">C04</a>, <a href="#C05">C05</a>, <a href="#C07">C07</a>, <a href="#C10">C10</a>, <a href="#C11">C11</a>, <a href="#C12">C12</a>, <a href="#C14">C14</a>, <a href="#A01">A01</a>, <a href="#A02">A02</a>, <a href="#A03">A03</a>, <a href="#A04">A04</a>, <a href="#A06">A06</a>, <a href="#A07">A07</a>, <a href="#W02">W02</a>, <a href="#W03">W03</a>, <a href="#P01">P01</a>, <a href="#P02">P02</a>, <a href="#P05">P05</a>, <a href="#P06">P06</a>, <a href="#P10">P10</a>, <a href="#P11">P11</a>, <a href="#R08">R08</a>, <a href="#R09">R09</a>, <a href="#R14">R14</a>, <a href="#R15">R15</a>, <a href="#R20">R20</a></td></tr><tr><td><b>Complex</b></td><td>“We don&#39;t have data for that. My reasoning is…”</td><td class="num">5</td><td class="legend"><a href="#W06">W06</a>, <a href="#W09">W09</a>, <a href="#P03">P03</a>, <a href="#P08">P08</a>, <a href="#P09">P09</a></td></tr><tr><td><b>Chaotic</b></td><td>“Let me take the part I can answer with data first…”</td><td class="num">2</td><td class="legend"><a href="#C08">C08</a>, <a href="#R06">R06</a></td></tr><tr><td><b>Confused</b></td><td>“If I understand correctly, you&#39;re asking…”</td><td class="num">1</td><td class="legend"><a href="#W10">W10</a></td></tr>
+  </tbody></table>
+</section>
+
+<section id="questions">
+  <h2>Questions</h2>
+  <div class="bar">
+    <input type="search" id="qs" placeholder="Search questions, answers, principles…">
+    <select id="fb"><option value="">All branches</option><option value="credible">Credible</option><option value="applicable">Applicable</option><option value="worth">Worth it</option><option value="position">Position</option><option value="practice">Practice</option></select>
+    <select id="fp"><option value="">All personas</option><option value="ai_senior">AI-armed senior</option><option value="statistician">Statistician</option><option value="community">Community oncologist</option><option value="pharmacist">Clinical pharmacist</option><option value="payer">Payer</option></select>
+    <select id="fc"><option value="">All domains</option><option value="clear">Clear</option><option value="complicated">Complicated</option><option value="complex">Complex</option><option value="chaotic">Chaotic</option><option value="confused">Confused</option></select>
+    <select id="fr"><option value="0">Any risk</option><option value="5">Risk 5</option><option value="4">Risk ≥4</option><option value="3">Risk ≥3</option></select>
+    <button id="rh" title="Hide answers; click a question to reveal">Rehearsal mode</button>
+    <span class="count" id="cnt"></span>
+  </div>
+  
+  <h2 id="b-credible" class="bh" data-branch="credible" style="font-size:18px;border:0;margin-top:26px">Credible — <span style="font-weight:400">Is the result true?</span></h2>
+  
+  <article class="q" id="C01" data-branch="credible" data-persona="ai_senior" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">C01</span><span class="chip">AI-armed senior</span><span class="chip">Complicated</span><span class="chip">undermine</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>Rd isn&#39;t a real comparator anymore — VRd already beat it in SWOG S0777. Didn&#39;t MAIA just beat a straw man?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A randomized trial answers &#39;better than this comparator&#39;; whether that matters today depends on whether the comparator was standard when patients were enrolled and how it links to today&#39;s standard.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on which year you mean. MAIA enrolled from 2015 to 2017, when Rd was the label standard for transplant-ineligible patients; S0777 was published in 2017 and also enrolled patients with transplant intent. So Rd was a fair control then. Today the honest claim is narrower: D-Rd beats Rd. Against VRd we only have an Rd-anchored indirect comparison favouring D-Rd, HR 0.59 — hypothesis-level. The direct triplet-versus-quadruplet answer comes from CEPHEUS and IMROZ, not MAIA.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Is an indirect comparison worth anything?</b><br>It adjusts for measured differences only. Era, subsequent therapy and assessment schedules differ. I treat it as consistent with, not proof of.</p><p><b>Then why not just give VRd?</b><br>For a fit patient I&#39;d add bortezomib to the antibody backbone rather than choose between them — that&#39;s what CEPHEUS and IMROZ tested.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>MAIA compared D-Rd with Rd, a standard at the time. Since VRd has shown superiority over Rd, many experts consider the comparator outdated.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>No date logic: MAIA enrolled 2015-17 and S0777 was published in 2017, with transplant-intent patients included. No mention that the only D-Rd vs VRd evidence is an Rd-anchored indirect comparison, or that the quadruplet trials compared against VRd, not D-Rd.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/28017406/" target="_blank" rel="noopener">[S8]</a> Durie BGM, et al. Lancet 2017;389:519-527 (SWOG S0777, VRd vs Rd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/38494542/" target="_blank" rel="noopener">[S9]</a> Durie BGM, et al. Adv Ther 2024;41:1923-1937 (ITC D-Rd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/38832972/" target="_blank" rel="noopener">[S10]</a> Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C02" data-branch="credible" data-persona="statistician" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">C02</span><span class="chip">Statistician</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>The 2021 OS result came from an interim analysis. Are we over-reading an early look?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>An interim analysis spends alpha against a stricter prespecified boundary; a result that crosses it is valid, and later updates are descriptive.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The data are clear: the interim OS analysis crossed its prespecified stopping boundary — p = 0.0013 against a boundary of 0.0414, HR 0.68. Everything after that, including the final analysis at 89 months, is descriptive follow-up of a result already established. And the HR didn&#39;t drift: 0.66 at 64.5 months, 0.67 at final. A lucky early estimate usually shrinks; this one didn&#39;t.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Why does a stable HR matter?</b><br>Random highs regress toward the truth with more events. Stability across three analyses argues the early effect was real.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C03" data-branch="credible" data-persona="ai_senior" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">C03</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="chip">rebut</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>It was open-label. Isn&#39;t the PFS benefit biased?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Assessment bias affects endpoints that require judgment; centrally assessed endpoints and death resist it.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Fair concern for subjective endpoints. Two facts answer it: PFS in MAIA was centrally assessed, and overall survival — which an assessor cannot bias — went the same direction, HR 0.67 at final. When the unbiasable endpoint agrees, assessment bias isn&#39;t the explanation.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Could open-label affect treatment decisions, like earlier discontinuation in the control arm?</b><br>It could affect behaviour. Time to next treatment was also longer with D-Rd, HR 0.51, which is hard to produce through behaviour alone.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Open-label designs can bias progression-based endpoints, which is a recognized limitation of MAIA.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Omits that MAIA&#39;s PFS was centrally assessed and that OS — which no assessor can bias — moved the same way.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C04" data-branch="credible" data-persona="statistician" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">C04</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="chip">undercut</span><span class="risk" title="risk 5/5">●●●●●</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>OS depends on what control patients received at relapse. How many Rd patients later got an anti-CD38 antibody?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>OS compares whole strategies including post-progression therapy; limited access to the experimental class in the control arm makes early use look better than use at any time.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Right — OS here compares &#39;anti-CD38 up front&#39; with &#39;Rd first, then what was available&#39;. The exact proportion of Rd patients who later received an anti-CD38 should be quoted from the final analysis. What supports the result: time to next treatment was much longer, HR 0.51, and the survival gain held through seven years. So I phrase the claim as: using daratumumab first, under that era&#39;s access, prolongs survival — not that timing never matters.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>So saving daratumumab for relapse could be just as good?</b><br>That&#39;s a sequencing question nobody has randomized. In older patients, attrition means many never reach second line — that&#39;s the bet you make by waiting.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      <div class="verify">⚠ UNVERIFIED — Proportion of Rd patients receiving subsequent anti-CD38 therapy (Facon, Leukemia 2026, full text)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="C05" data-branch="credible" data-persona="statistician" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">C05</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>The Rd arm had a median PFS of 34.4 months — longer than older Rd series. Was this a selected population?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Control-arm outcomes reflect eligibility, era and supportive care; comparing control arms across trials is confounded, but randomization keeps the within-trial comparison fair.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Probably fitter than clinic patients: ECOG 0 to 2, adequate renal function. S0777&#39;s Rd arm had a median of 30 months, so 34.4 isn&#39;t out of line for continuous Rd in a trial population. Selection limits who the result applies to; it doesn&#39;t bias the randomized comparison.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><a href="https://pubmed.ncbi.nlm.nih.gov/28017406/" target="_blank" rel="noopener">[S8]</a> Durie BGM, et al. Lancet 2017;389:519-527 (SWOG S0777, VRd vs Rd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)</div>
+      <div class="verify">⚠ UNVERIFIED — MAIA renal eligibility threshold (CrCl ≥30 mL/min?) — NEJM 2019 Methods/protocol</div>
+    </div>
+  </article>
+  
+  <article class="q" id="C06" data-branch="credible" data-persona="ai_senior" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">C06</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>MRD negativity was only about 30% with D-Rd. Isn&#39;t that weak next to quadruplets at 60%?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>MRD rates depend on threshold, denominator and when marrow is sampled; they compare fairly only within a trial.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The data are clear within the trial: 32.1% versus 11.1% at 10⁻⁵, intention-to-treat, and sustained MRD negativity 16.8% versus 3.3%. Across trials the numbers aren&#39;t comparable — different regimens, timing and assessment schedules. And MAIA has what the quadruplet trials don&#39;t yet have: a 7.5-year median overall survival.</div>
+      
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>MAIA reported MRD-negativity of roughly 24-32% with D-Rd, lower than the ~60% reported with D-VRd in CEPHEUS.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>MRD rates are not comparable across trials (timing, regimen, number of marrow assessments). Within MAIA the comparison is 32.1% vs 11.1%. MAIA has final OS; CEPHEUS OS is immature.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C07" data-branch="credible" data-persona="statistician" data-cynefin="complicated" data-risk="2">
+    <div class="meta"><span class="chip id">C07</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>Is MRD negativity a validated surrogate for overall survival in this setting?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A surrogate is validated when treatment effects on it predict treatment effects on survival across trials, not just when MRD-negative patients do better.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">At the patient level MRD negativity strongly predicts longer PFS; trial-level validation for OS is the harder bar. That&#39;s why I don&#39;t lean on MRD for MAIA — MAIA doesn&#39;t need a surrogate, it has final OS. Where MRD matters is the quadruplet trials, whose OS is still immature.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42789828/" target="_blank" rel="noopener">[S12]</a> Usmani SZ, et al. J Clin Oncol 2026, doi:10.1200/JCO-26-00401 (CEPHEUS TI subgroup)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C08" data-branch="credible" data-persona="ai_senior" data-cynefin="chaotic" data-risk="4">
+    <div class="meta"><span class="chip id">C08</span><span class="chip">AI-armed senior</span><span class="chip">Chaotic</span><span class="chip">rebut</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>Serious adverse events were higher with daratumumab. So it causes more harm while &#39;improving&#39; survival?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Overall survival counts every death, toxic or not; a positive OS difference already includes the harm.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Let me take the data part first. Serious adverse events were higher, 77% versus 70%, and deaths due to adverse events at the final analysis were 12% versus 11% — similar. Overall survival counts every death, and it favours D-Rd: 53% versus 39% alive at seven years. So the net is clearly positive. The extra harm is real and mostly infection, which is why prophylaxis and early vigilance matter.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>What kind of deaths?</b><br>Infection is the main excess: in the pooled MAIA and ALCYONE analysis, grade 5 infections were 3.0% versus 1.5%.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>D-Rd was associated with more serious adverse events, particularly neutropenia and pneumonia, which should be weighed against the efficacy benefit.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Misses that OS already nets out toxic deaths, and that deaths due to adverse events were similar at final (12% vs 11%).</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C09" data-branch="credible" data-persona="statistician" data-cynefin="clear" data-risk="2">
+    <div class="meta"><span class="chip id">C09</span><span class="chip">Statistician</span><span class="chip">Clear</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>How was randomization stratified, and could imbalance explain the result?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Stratified randomization balances the strongest prognostic factors by design; chance imbalance shrinks as sample size grows.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Stratified by ISS stage, region and age; 737 patients, 1:1. Baseline characteristics were similar between arms. Chance imbalance doesn&#39;t produce a PFS HR around 0.55 that is consistent across subgroups.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">[S5]</a> Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C10" data-branch="credible" data-persona="ai_senior" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">C10</span><span class="chip">AI-armed senior</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Daratumumab shows up on SPEP. Couldn&#39;t response or progression be misclassified?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Daratumumab is itself an IgG-κ monoclonal antibody; on SPEP/IFE it can mimic residual M-protein, so it hides responses rather than creating them.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The interference is real — the label says daratumumab can be detected on SPEP and IFE in IgG-kappa patients. The direction matters: it can make a true complete response look like residual disease. That biases against D-Rd, not for it. In practice, a daratumumab-specific IFE reflex assay separates the drug from the disease.</div>
+      
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Daratumumab can interfere with SPEP and immunofixation, potentially affecting response assessment in IgG-kappa myeloma.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Doesn&#39;t say which direction: the interference makes a true CR look like residual disease — a bias against D-Rd, not for it.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Local availability of a daratumumab-specific IFE reflex assay</div>
+    </div>
+  </article>
+  
+  <article class="q" id="C11" data-branch="credible" data-persona="statistician" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">C11</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Did the OS curves separate early, or was there an early excess of deaths with D-Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A single HR assumes proportional hazards; early toxic deaths followed by late benefit produce crossing curves that a single HR hides.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on how the curve behaves, so I show it rather than describe it. What the numbers allow me to say: grade 3/4 infection risk peaked in the first six months in both arms, deaths due to adverse events were similar overall, and the OS HR stayed around 0.67 across three analyses. A large early excess would not leave the HR that stable.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)</div>
+      <div class="verify">⚠ UNVERIFIED — Inspect the final OS Kaplan-Meier figure for early crossing (Facon, Leukemia 2026)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="C12" data-branch="credible" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">C12</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Trial centres are expert centres. Will I get the same result in my clinic?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Efficacy in a trial becomes effectiveness in practice only if patients stay on therapy at adequate dose; adherence and supportive care carry the result.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends mostly on keeping patients on treatment. MAIA ran at 176 hospitals in 14 countries, not only academic centres. What erodes benefit in practice is early discontinuation — infection, steroid toxicity, logistics. So the transferable part is the supportive care: prophylaxis, dex reduction, SC administration, early review in the first six months.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="C13" data-branch="credible" data-persona="pharmacist" data-cynefin="clear" data-risk="2">
+    <div class="meta"><span class="chip id">C13</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 2/5">●●○○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Did both arms get the same lenalidomide and dexamethasone, or could the D-Rd arm simply have had more Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A treatment effect can be attributed to the added drug only if the background therapy was protocol-identical between arms.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The data are clear: both arms had the same backbone — lenalidomide 25 mg days 1-21 and dexamethasone 40 mg weekly, 20 mg if older than 75 or BMI under 18.5. On daratumumab days the dex served as premedication. The only planned difference was daratumumab.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)</div>
+      <div class="verify">⚠ UNVERIFIED — Delivered lenalidomide dose intensity by arm (MAIA safety tables)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="C14" data-branch="credible" data-persona="payer" data-cynefin="complicated" data-risk="2">
+    <div class="meta"><span class="chip id">C14</span><span class="chip">Payer</span><span class="chip">Complicated</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>It&#39;s an industry-sponsored trial. Should a payer discount it?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Sponsorship bias acts through design choices — comparator, endpoint, reporting — so judge those choices rather than the funder.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Judge the design, not the funder. MAIA was funded by Janssen, prospectively registered, with centrally assessed PFS and an objective OS endpoint. The sponsor-shaped choice that matters is the comparator: Rd rather than VRd. That limits what it answers, not whether its answer is true.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/31141632/" target="_blank" rel="noopener">[S1]</a> Facon T, et al. N Engl J Med 2019;380:2104-2115 (MAIA primary)<br><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)</div>
+      
+    </div>
+  </article>
+  
+  <h2 id="b-applicable" class="bh" data-branch="applicable" style="font-size:18px;border:0;margin-top:26px">Applicable — <span style="font-weight:400">Does it apply to my patient?</span></h2>
+  
+  <article class="q" id="A01" data-branch="applicable" data-persona="ai_senior" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">A01</span><span class="chip">AI-armed senior</span><span class="chip">Complicated</span><span class="chip">undermine</span><span class="risk" title="risk 5/5">●●●●●</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Only a tiny fraction of MAIA patients were Asian. Why should this apply to Taiwanese patients?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>The efficacy of a target-directed antibody transfers when the target and disease biology are the same; tolerability depends on body size, comorbidity and infection exposure, which differ more between populations.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Fair: the label reports 1% Asian patients in MAIA, so MAIA alone cannot answer this. I split the question. Efficacy depends on CD38 biology, which isn&#39;t ethnic. Tolerability depends on body weight, frailty and infection exposure — and those I can adjust: dexamethasone 20 mg for BMI under 18.5, zoster prophylaxis, vigilance for infection in the first six months. So I extrapolate the efficacy and personalise the safety.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Any Asian data with daratumumab at all?</b><br>Asian-enrolling daratumumab trials and regional real-world series exist; have the specific citation ready.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Asian patients were under-represented in MAIA, but daratumumab efficacy has generally been consistent across ethnic groups, so results are considered applicable.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Gives no number (1% Asian per the US label) and does not separate efficacy, which depends on biology, from tolerability, which depends on body size, frailty and care setting.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)</div>
+      <div class="verify">⚠ UNVERIFIED — Cite Asian daratumumab data (e.g. Asia-Pacific trials or Taiwanese real-world series)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="A02" data-branch="applicable" data-persona="community" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">A02</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>My patient is 84 and frail. D-Rd, or something gentler?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Fitness, not age, predicts tolerance; dexamethasone contributes much of the toxicity in frail patients, so removing it can keep the antibody&#39;s benefit at lower cost.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on frailty, not age. In MAIA&#39;s frail subgroup PFS favoured D-Rd, HR 0.64, but the OS confidence interval crossed 1. The better evidence for the truly frail is IFM2017-03: median age 81, daratumumab-lenalidomide with dexamethasone only in the first two cycles beat Rd — median PFS 53.4 versus 22.5 months. For my frail 84-year-old, that&#39;s DR, dexamethasone-sparing. IFM 2026 says the same.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>What did IFM2017-03 cost in toxicity?</b><br>More grade 3-5 neutropenia, 55% vs 24%, but infections were similar, 19% vs 21%.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">[S5]</a> Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42839070/" target="_blank" rel="noopener">[S6]</a> Facon T, et al. Leukemia 2026, doi:10.1038/s41375-026-03128-5 (MAIA frailty)<br><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">[S14]</a> Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">[S15]</a> Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A03" data-branch="applicable" data-persona="statistician" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">A03</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="chip">undermine</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Frail patients had an OS HR of 0.79 with the CI crossing 1. So no survival benefit in the frail?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A non-significant subgroup is absence of evidence, not evidence of absence; subgroups test interaction and are usually underpowered.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">That&#39;s a subgroup result, and it&#39;s underpowered: frailty was assessed retrospectively from age, Charlson index and ECOG. PFS, CR and MRD all favoured D-Rd in frail patients. What the data do support is that the OS gain is surest in non-frail patients — HR 0.53 — and less certain in the frail. That&#39;s why I use the dex-sparing approach there.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42839070/" target="_blank" rel="noopener">[S6]</a> Facon T, et al. Leukemia 2026, doi:10.1038/s41375-026-03128-5 (MAIA frailty)<br><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">[S14]</a> Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A04" data-branch="applicable" data-persona="community" data-cynefin="complicated" data-risk="4">
+    <div class="meta"><span class="chip id">A04</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>High-risk cytogenetics — is D-Rd enough?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A consistent relative effect on a worse baseline still leaves a worse absolute outcome; high-risk disease is where deeper regimens have the most room to help.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The relative benefit holds — PFS HR 0.59 in high-risk cytogenetics. But high-risk patients still do worse in absolute terms. In a fit high-risk patient I&#39;d consider a quadruplet — D-VRd or Isa-VRd — where accessible. The isolated gain(1q) HR of 0.36 is a small post hoc subgroup; I wouldn&#39;t build a decision on it.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Which cytogenetic abnormalities count as high risk here?</b><br>Use the trial&#39;s definition for the HR and today&#39;s IMWG definition for the patient; they are not the same, so say which you mean.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">[S5]</a> Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">[S15]</a> Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)<br><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/38832972/" target="_blank" rel="noopener">[S10]</a> Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A05" data-branch="applicable" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">A05</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>CrCl is 25. Can I still use D-Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Monoclonal antibodies are cleared by catabolism, not the kidney; lenalidomide is about 82% excreted unchanged in urine, so only lenalidomide needs adjusting.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Yes — adjust lenalidomide, not daratumumab. Label: CrCl under 30 not on dialysis, lenalidomide 15 mg every other day; on dialysis, 5 mg daily, after dialysis on dialysis days. Daratumumab&#39;s population PK showed no meaningful effect of CrCl 15 to 89. One caveat: patients this impaired were likely outside MAIA&#39;s eligibility, so efficacy here is extrapolated.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Will the dose go back up if renal function recovers?</b><br>Yes — re-dose to the new CrCl band; myeloma kidney often improves with response.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — MAIA renal eligibility threshold</div>
+    </div>
+  </article>
+  
+  <article class="q" id="A06" data-branch="applicable" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">A06</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>ECOG 3. Would you still give D-Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Performance status caused by the disease can recover with response; performance status caused by comorbidity will not.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">MAIA required ECOG 0 to 2, so this is outside the trial. It depends on why the patient is ECOG 3. If it&#39;s myeloma — bone pain, hypercalcemia, renal failure — response often restores function and I&#39;d treat. If it&#39;s comorbidity, I&#39;d use the frail approach: DR with dexamethasone limited to the first cycles.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">[S14]</a> Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A07" data-branch="applicable" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">A07</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>MAIA called anyone 65+ transplant-ineligible. What about my fit 67-year-old?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Eligibility labels are trial definitions, not biology; a fit patient defined as &#39;ineligible&#39; by age alone may be better served by the transplant pathway.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">MAIA defined ineligibility as age 65 or older, or comorbidity — so it includes fit patients many centres would transplant. For them, the relevant comparison is the transplant pathway, not MAIA. If transplant is deferred, CEPHEUS — which enrolled transplant-deferred patients — is the better trial to quote.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A08" data-branch="applicable" data-persona="statistician" data-cynefin="clear" data-risk="2">
+    <div class="meta"><span class="chip id">A08</span><span class="chip">Statistician</span><span class="chip">Clear</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>Is the benefit consistent in patients aged 75 and older?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Consistency of direction across prespecified subgroups is the evidence; subgroup p-values are not.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The data are clear: PFS HR 0.59 in patients aged 75 or older. Grade 3/4 and serious adverse events were similar between arms in that group, and discontinuation due to adverse events was lower with D-Rd.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">[S5]</a> Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A09" data-branch="applicable" data-persona="community" data-cynefin="clear" data-risk="2">
+    <div class="meta"><span class="chip id">A09</span><span class="chip">Community oncologist</span><span class="chip">Clear</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>How sick were MAIA patients? Would my clinic population have qualified?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Eligibility criteria filter out the sickest patients, so trial populations are fitter than clinic populations.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Median age 73, 44% aged 75 or older, 17% ECOG 2 or more, 1% Asian. Many clinic patients — worse renal function, ECOG 3, serious comorbidity — would not have qualified. The efficacy signal transfers better than the safety profile.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="A10" data-branch="applicable" data-persona="payer" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">A10</span><span class="chip">Payer</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Do NHI rules for daratumumab at relapse cover the same patients MAIA enrolled?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Reimbursement criteria are written independently of trial eligibility; any mismatch shifts who can actually receive the drug.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Not exactly. MAIA allowed ECOG 0 to 2 — 17% were ECOG 2 or more. The NHI rule for daratumumab with Rd or Vd at relapse requires ECOG under 2. So an ECOG-2 patient who could have entered MAIA would not qualify for reimbursed daratumumab at relapse.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)</div>
+      
+    </div>
+  </article>
+  
+  <h2 id="b-worth" class="bh" data-branch="worth" style="font-size:18px;border:0;margin-top:26px">Worth it — <span style="font-weight:400">Is it worth it?</span></h2>
+  
+  <article class="q" id="W01" data-branch="worth" data-persona="ai_senior" data-cynefin="clear" data-risk="5">
+    <div class="meta"><span class="chip id">W01</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>OS hazard ratio 0.67 — so a third fewer patients die?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A hazard ratio compares instantaneous risk across the whole curve; it is not the proportion of patients saved.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Not quite. 0.67 means a 33% lower instantaneous risk of death, averaged over follow-up. The number a patient lives on is absolute: at seven years, 53.1% versus 39.3% alive — about 14 percentage points, roughly one extra survivor at seven years for every seven treated (speaker&#39;s arithmetic). Median OS 90.3 versus 64.1 months.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Isn&#39;t NNT 7 just an estimate?</b><br>Yes — it&#39;s time-specific and derived from Kaplan-Meier estimates. At five years it&#39;s about 8 (66.6% vs 53.6%).</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Yes, an HR of 0.67 corresponds to a 33% reduction in the risk of death with D-Rd versus Rd.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Converts a relative hazard into a proportion of patients. The absolute difference at seven years is 14 percentage points.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W02" data-branch="worth" data-persona="payer" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">W02</span><span class="chip">Payer</span><span class="chip">Complicated</span><span class="chip">undermine</span><span class="risk" title="risk 5/5">●●●●●</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Treatment until progression for five or more years. Who pays for that in Taiwan?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>The cost of continuous therapy scales with its efficacy: the longer it works, the longer it is paid for.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">That&#39;s the paradox of continuous therapy. In Taiwan, under rule 9.78 effective 1 September 2025, first-line daratumumab is reimbursed only with VTd for transplant-eligible patients; for everyone else it is reimbursed with Rd or Vd after failure of a bortezomib- or lenalidomide-containing regimen. Frontline lenalidomide-dex for transplant-ineligible patients is covered, with prior authorization every four cycles and a lifetime cap of 24 four-week cycles under rule 9.43. So D-Rd as tested in MAIA is largely self-pay up front here.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>So what do most Taiwanese patients actually get?</b><br>Commonly an NHI-covered frontline regimen, with daratumumab at first relapse — which is exactly the sequencing question MAIA can&#39;t answer.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)<br><a href="https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf" target="_blank" rel="noopener">[N2]</a> NHI 藥品給付規定 9.43 Lenalidomide (eff. 115/4/1 = 2026-04-01)</div>
+      <div class="verify">⚠ UNVERIFIED — Re-check 9.78 and 9.43 for revisions after the effective dates cited, as of the talk date</div>
+    </div>
+  </article>
+  
+  <article class="q" id="W03" data-branch="worth" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">W03</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>What about quality of life on continuous triplet therapy?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>In a symptomatic cancer, disease control is itself a quality-of-life intervention; toxicity subtracts from it, so the net must be measured, not assumed.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Health-related quality of life was reported as improved and sustained with D-Rd in a MAIA HRQoL analysis — I&#39;d quote the specific scale from that paper. In patients 75 and older, discontinuation for adverse events was lower with D-Rd. In the frail, dropping dexamethasone is the most effective quality-of-life move we have evidence for.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39952901/" target="_blank" rel="noopener">[S16]</a> Perrot A, et al. Eur J Haematol 2025 (MAIA HRQoL)<br><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">[S5]</a> Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)<br><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">[S14]</a> Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)</div>
+      <div class="verify">⚠ UNVERIFIED — HRQoL scales and effect sizes (Perrot, Eur J Haematol 2025) — only the title was read</div>
+    </div>
+  </article>
+  
+  <article class="q" id="W04" data-branch="worth" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">W04</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>Concretely, what extra toxicity does daratumumab add?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Myeloma is already an immunodeficiency; an anti-CD38 antibody deepens it, so the excess toxicity is mainly cytopenia and infection, concentrated early.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Grade 3/4 neutropenia 50.0% versus 35.3% and pneumonia 13.7% versus 7.9% in the primary analysis. Pooled with ALCYONE, grade 3/4 infections 36.9% versus 22.4%, highest in the first six months, though exposure-adjusted rates were comparable. Infusion reactions occur in 37% at the first IV infusion and 2% at the second. Infections caused discontinuation in only about 2%.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>When is infection risk highest?</b><br>The first six months — that&#39;s where prophylaxis and dex reduction pay off most.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/31141632/" target="_blank" rel="noopener">[S1]</a> Facon T, et al. N Engl J Med 2019;380:2104-2115 (MAIA primary)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W05" data-branch="worth" data-persona="statistician" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">W05</span><span class="chip">Statistician</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>What&#39;s the number needed to treat?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>An NNT is only meaningful at a stated time point, because absolute differences change along the curve.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Speaker&#39;s arithmetic from published landmarks: at five years, 66.6% versus 53.6% alive — 13 points, NNT about 8. At seven years, 53.1% versus 39.3% — 13.8 points, NNT about 7. These come from Kaplan-Meier estimates, not observed counts.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W06" data-branch="worth" data-persona="payer" data-cynefin="complex" data-risk="4">
+    <div class="meta"><span class="chip id">W06</span><span class="chip">Payer</span><span class="chip">Complex</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>When the NHI lenalidomide cap runs out, what then?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A reimbursement cap is a budget rule, not a biological stopping point; stopping continuous therapy early trades PFS for cost without trial evidence on the size of that trade.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">We don&#39;t have randomized data for that. MAIA treated until progression; nobody has tested stopping at 24 cycles. My reasoning: in a patient with sustained deep response, stopping is a defensible discussion; in a patient still responding slowly, I&#39;d look for self-pay continuation. The trials that will settle it are MRD-guided discontinuation studies.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Would you stop at 24 cycles if the patient can&#39;t pay?</b><br>I&#39;d discuss it openly. In a sustained deep responder a pause is reasonable with close monitoring; it is not evidence-based either way.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf" target="_blank" rel="noopener">[N2]</a> NHI 藥品給付規定 9.43 Lenalidomide (eff. 115/4/1 = 2026-04-01)<br><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W07" data-branch="worth" data-persona="community" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">W07</span><span class="chip">Community oncologist</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Weekly infusions for two months — isn&#39;t the visit burden too high for elderly patients?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Dose intensity is front-loaded to saturate the target; maintenance needs far fewer visits, and the SC route removes most chair time.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The schedule is front-loaded: weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks. Subcutaneous daratumumab takes 3 to 5 minutes. After six months it&#39;s one visit a month.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">[L2]</a> DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W08" data-branch="worth" data-persona="ai_senior" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">W08</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>The median PFS gain is about 27 months. Is that really transformative?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A median difference is one point on each curve; the downstream endpoints show whether the gain is carried forward.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The data are clear: 61.9 versus 34.4 months. What makes it matter is that it carried through — time to next treatment not reached versus 42.4 months, and median overall survival 90.3 versus 64.1 months. A PFS gain that becomes a 26-month OS gain is the strongest kind.</div>
+      
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>MAIA showed median PFS of 61.9 vs 34.4 months, a gain of approximately 27 months with D-Rd.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Correct arithmetic, but leaves out what happened next: time to next treatment was not reached vs 42.4 months, and median OS rose by 26 months.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="W09" data-branch="worth" data-persona="payer" data-cynefin="complex" data-risk="3">
+    <div class="meta"><span class="chip id">W09</span><span class="chip">Payer</span><span class="chip">Complex</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Is D-Rd cost-effective in Taiwan?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Cost-effectiveness of continuous therapy is driven by price × treatment duration; better efficacy lengthens duration and can worsen the ratio even as outcomes improve.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">I don&#39;t have a Taiwan cost-effectiveness analysis for frontline D-Rd. What I can say is what drives it: drug price multiplied by a median time on treatment that MAIA made much longer. That&#39;s why payers restrict duration or line of therapy rather than the drug.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)</div>
+      <div class="verify">⚠ UNVERIFIED — Search CDE/NHI HTA reports for frontline D-Rd</div>
+    </div>
+  </article>
+  
+  <article class="q" id="W10" data-branch="worth" data-persona="community" data-cynefin="confused" data-risk="2">
+    <div class="meta"><span class="chip id">W10</span><span class="chip">Community oncologist</span><span class="chip">Confused</span><span class="risk" title="risk 2/5">●●○○○</span></div>
+    <h3>So with a seven-and-a-half-year median, are we curing these patients now?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A cure shows as a plateau in the survival curve; a long median with a curve that keeps falling is prolonged control, not cure.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">If I understand correctly, you&#39;re asking whether a 7.5-year median OS means cure — is that right? Then no: half the patients in the D-Rd arm had died by 90 months, and the PFS curve keeps falling. It&#39;s prolonged control. Whether a subset with sustained MRD negativity is functionally cured is an open question.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)</div>
+      
+    </div>
+  </article>
+  
+  <h2 id="b-position" class="bh" data-branch="position" style="font-size:18px;border:0;margin-top:26px">Position — <span style="font-weight:400">Where does it sit?</span></h2>
+  
+  <article class="q" id="P01" data-branch="position" data-persona="ai_senior" data-cynefin="complicated" data-risk="5">
+    <div class="meta"><span class="chip id">P01</span><span class="chip">AI-armed senior</span><span class="chip">Complicated</span><span class="chip">rebut</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>Isn&#39;t D-VRd now the standard for transplant-ineligible patients? The FDA approved it.</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A regimen is shown superior only to its comparator, and adding a drug helps only the patients who can tolerate it.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on fitness. Quadruplets beat VRd — CEPHEUS PFS HR 0.57, IMROZ HR 0.60 — and the FDA approved D-VRd in January 2026. But neither compared with D-Rd, overall survival is still immature, and IMROZ enrolled only up to age 80. IFM 2026 keeps DRd as the backbone and adds bortezomib for fit patients. So: fit, consider a quadruplet; intermediate, D-Rd; frail, DR.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>What&#39;s the CEPHEUS transplant-ineligible OS?</b><br>HR 0.66, 95% CI 0.42 to 1.03 — favourable but immature.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Yes. CEPHEUS showed D-VRd improved MRD negativity and PFS over VRd, and the FDA approved D-VRd for transplant-ineligible NDMM, making quadruplets the new standard for fit patients.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>CEPHEUS compared with VRd, not D-Rd; OS in the transplant-ineligible subgroup is immature (HR 0.66, CI crosses 1); IMROZ excluded patients over 80; IFM 2026 keeps DRd as backbone; quadruplets are not NHI-reimbursed here.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42789828/" target="_blank" rel="noopener">[S12]</a> Usmani SZ, et al. J Clin Oncol 2026, doi:10.1200/JCO-26-00401 (CEPHEUS TI subgroup)<br><a href="https://pubmed.ncbi.nlm.nih.gov/38832972/" target="_blank" rel="noopener">[S10]</a> Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">[S15]</a> Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)<br><a href="https://www.pharmacytimes.com/view/fda-approves-daratumumab-and-hyaluronidase-fihj-with-quadruplet-regimen-for-newly-diagnosed-multiple-myeloma" target="_blank" rel="noopener">[F1]</a> FDA approval of D-VRd (Darzalex Faspro) for transplant-ineligible NDMM, 27 Jan 2026 (Pharmacy Times)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="P02" data-branch="position" data-persona="statistician" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">P02</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>BENEFIT added bortezomib to Isa-Rd and doubled MRD negativity. Doesn&#39;t that settle quadruplet over triplet?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A surrogate endpoint shows activity; it settles superiority only once the surrogate is validated or survival matures.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It settles activity, not yet survival. 18-month MRD negativity was 53% versus 26%, in patients aged 65 to 79. At 23.5 months there was no survival difference — the data were immature. It&#39;s the most direct triplet-versus-quadruplet trial we have, and it supports adding bortezomib in fit patients.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38830994/" target="_blank" rel="noopener">[S13]</a> Leleu X, et al. Nat Med 2024;30:2235-2241 (BENEFIT, Isa-VRd vs Isa-Rd)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="P03" data-branch="position" data-persona="community" data-cynefin="complex" data-risk="4">
+    <div class="meta"><span class="chip id">P03</span><span class="chip">Community oncologist</span><span class="chip">Complex</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Shouldn&#39;t I save daratumumab for first relapse?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Using the best drug first versus saving it is a bet on attrition: patients who never reach second line never receive the saved drug.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">We don&#39;t have a randomized sequencing trial. My reasoning: in older patients a meaningful share never receive second-line therapy, so &#39;saving&#39; a drug often means never using it. MAIA&#39;s survival gain reflects using it when it&#39;s most likely to be received. In Taiwan the rules push daratumumab to relapse for most transplant-ineligible patients — so for many, the real decision is made by reimbursement.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Isn&#39;t the relapse harder if daratumumab is used first?</b><br>Yes — refractoriness to both drugs at first relapse is the trade. The OS data say the trade was worth it in MAIA.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)</div>
+      <div class="verify">⚠ UNVERIFIED — Attrition rate by line in transplant-ineligible NDMM — cite (e.g. Fonseca, Oncologist 2023)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="P04" data-branch="position" data-persona="payer" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">P04</span><span class="chip">Payer</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Daratumumab or isatuximab — are they interchangeable?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Same target, different molecules and different trials; evidence attaches to the regimen tested, not to the target.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Same target, different evidence. MAIA tested daratumumab with Rd; isatuximab&#39;s frontline evidence is with VRd (IMROZ) and in BENEFIT. Under NHI, isatuximab and daratumumab are one-or-the-other — switching is allowed only for intolerance, under rule 9.108.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38832972/" target="_blank" rel="noopener">[S10]</a> Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/38830994/" target="_blank" rel="noopener">[S13]</a> Leleu X, et al. Nat Med 2024;30:2235-2241 (BENEFIT, Isa-VRd vs Isa-Rd)<br><a href="https://www.nhi.gov.tw/ch/dl-66950-78c9e5fca763458f9662d3407113e2b5-1.pdf" target="_blank" rel="noopener">[N3]</a> NHI 藥品給付規定 9.108 Isatuximab (eff. 113/4/1 = 2024-04-01)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="P05" data-branch="position" data-persona="statistician" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">P05</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>How much should I trust the indirect comparison of D-Rd versus VRd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Anchored indirect comparisons preserve randomization within each trial but inherit every unmeasured difference between trials.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Moderately. It used patient-level data from both trials, harmonized to age 65 or older, with Rd as the common anchor. HRs versus Rd: D-Rd 0.52, VRd 0.88 with a CI crossing 1 in that harmonized population; anchored D-Rd versus VRd 0.59. Unmeasured differences — era, VRd schedule, subsequent therapy — remain. Consistent with D-Rd being at least as good, not proof.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38494542/" target="_blank" rel="noopener">[S9]</a> Durie BGM, et al. Adv Ther 2024;41:1923-1937 (ITC D-Rd vs VRd)<br><a href="https://pubmed.ncbi.nlm.nih.gov/28017406/" target="_blank" rel="noopener">[S8]</a> Durie BGM, et al. Lancet 2017;389:519-527 (SWOG S0777, VRd vs Rd)</div>
+      <div class="verify">⚠ UNVERIFIED — ITC funding and author affiliations — check disclosures</div>
+    </div>
+  </article>
+  
+  <article class="q" id="P06" data-branch="position" data-persona="community" data-cynefin="complicated" data-risk="4">
+    <div class="meta"><span class="chip id">P06</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>After progression on D-Rd, what&#39;s left?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Progression on continuous therapy makes the patient refractory to every drug in it, so the next line must change class.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Patients progress refractory to both lenalidomide and anti-CD38. So second line switches class: a proteasome inhibitor with pomalidomide or carfilzomib-based regimens, and later BCMA- or GPRC5D-directed therapy. That&#39;s the price of using our strongest combination first: the first relapse is harder to treat.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Does anti-CD38 retreatment work?</b><br>Response to re-exposure after progression on an anti-CD38 is limited; I don&#39;t plan on it.</p></div>
+      
+      
+      <div class="verify">⚠ UNVERIFIED — Cite relapse options after D-Rd (NCCN Multiple Myeloma, current version) and local reimbursement</div>
+    </div>
+  </article>
+  
+  <article class="q" id="P07" data-branch="position" data-persona="ai_senior" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">P07</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>What do current guidelines say?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A guideline position is only as current as its version date.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The most recent statement I&#39;ve read is IFM 2026: DRd remains the transplant-ineligible backbone; fit patients can add bortezomib, as Isa-VRd or D-VRd; frail patients get DR without dexamethasone. I&#39;d quote NCCN only with its version number.</div>
+      
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>NCCN and ESMO list D-Rd as a preferred regimen for transplant-ineligible NDMM, with quadruplets increasingly recommended for fit patients.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Without a version date, a guideline quote can be months out of date; the latest European statement (IFM 2026) frames D-Rd as the backbone with additions by fitness.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">[S15]</a> Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)</div>
+      <div class="verify">⚠ UNVERIFIED — NCCN Multiple Myeloma current version — category and preference of D-Rd</div>
+    </div>
+  </article>
+  
+  <article class="q" id="P08" data-branch="position" data-persona="community" data-cynefin="complex" data-risk="3">
+    <div class="meta"><span class="chip id">P08</span><span class="chip">Community oncologist</span><span class="chip">Complex</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Can I stop D-Rd in a patient with sustained MRD negativity?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Stopping is safe only if the residual disease left behind does not regrow faster than it is detected; that has to be tested prospectively.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">We don&#39;t have data from MAIA to support stopping — it treated until progression, and sustained MRD negativity was 16.8%. My reasoning: sustained MRD negativity identifies the patients most likely to tolerate a pause, but MRD-guided discontinuation is investigational. I&#39;d discuss it, not recommend it.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">[S3]</a> Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="P09" data-branch="position" data-persona="ai_senior" data-cynefin="complex" data-risk="3">
+    <div class="meta"><span class="chip id">P09</span><span class="chip">AI-armed senior</span><span class="chip">Complex</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Bispecifics and CAR-T are moving to first line. Isn&#39;t MAIA already obsolete?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>A new therapy displaces a standard only after it beats it on durable endpoints; the incumbent&#39;s mature OS is the benchmark.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Not yet. First-line T-cell-redirecting trials are ongoing; IFM 2026 lists them as investigational. MAIA has given us a 7.5-year median overall survival — that&#39;s the benchmark any new first-line strategy for these patients now has to beat.</div>
+      
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Bispecific antibodies and CAR-T are being studied in newly diagnosed myeloma and may change first-line therapy, though D-Rd remains a standard option for now.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Names no benchmark. The bar any new first-line strategy must clear in these patients is MAIA&#39;s 7.5-year median OS.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">[S15]</a> Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)<br><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">[S4]</a> Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="P10" data-branch="position" data-persona="payer" data-cynefin="complicated" data-risk="4">
+    <div class="meta"><span class="chip id">P10</span><span class="chip">Payer</span><span class="chip">Complicated</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Given NHI rules, what is the realistic first line for a transplant-ineligible patient in Taiwan?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Evidence ranks regimens; reimbursement decides access; the realistic plan sequences the best reimbursed options.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on what the patient can fund. Within NHI: frontline Rd is covered with a 24-cycle lifetime cap, and daratumumab becomes available with Rd or Vd after failure of a lenalidomide- or bortezomib-containing regimen. If the patient can self-pay, D-Rd up front has the strongest survival data. I make that trade-off explicit to the patient.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Would you advise a patient to self-pay for D-Rd?</b><br>I present the survival gain and the cost honestly and let the patient decide; I don&#39;t push either way.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)<br><a href="https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf" target="_blank" rel="noopener">[N2]</a> NHI 藥品給付規定 9.43 Lenalidomide (eff. 115/4/1 = 2026-04-01)</div>
+      <div class="verify">⚠ UNVERIFIED — Frontline bortezomib-based NHI coverage for transplant-ineligible patients — check current rule</div>
+    </div>
+  </article>
+  
+  <article class="q" id="P11" data-branch="position" data-persona="pharmacist" data-cynefin="complicated" data-risk="2">
+    <div class="meta"><span class="chip id">P11</span><span class="chip">Clinical pharmacist</span><span class="chip">Complicated</span><span class="risk" title="risk 2/5">●●○○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>If we move a fit patient from D-Rd to D-VRd, what changes for pharmacy and monitoring?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Each added drug brings its own toxicity profile; bortezomib adds peripheral neuropathy and a fixed induction schedule.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on the regimen&#39;s structure. In CEPHEUS, D-VRd was given for eight cycles, then D-Rd until progression — so the added work is the bortezomib induction: more visits and neuropathy monitoring. After induction, the regimen converges on D-Rd.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">[S11]</a> Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)</div>
+      <div class="verify">⚠ UNVERIFIED — Bortezomib schedule and neuropathy rates in CEPHEUS (full text)</div>
+    </div>
+  </article>
+  
+  <h2 id="b-practice" class="bh" data-branch="practice" style="font-size:18px;border:0;margin-top:26px">Practice — <span style="font-weight:400">How do I actually give it?</span></h2>
+  
+  <article class="q" id="R01" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="5">
+    <div class="meta"><span class="chip id">R01</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>What is the daratumumab IV dose and schedule in D-Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Dosing is front-loaded to saturate CD38 target binding, after which less frequent dosing maintains exposure.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The label is specific: 16 mg/kg IV, weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks from week 25 until progression. In MAIA terms: weekly cycles 1-2, every 2 weeks cycles 3-6, every 4 weeks from cycle 7.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Missed dose?</b><br>Give it as soon as possible and shift the schedule to keep the dosing interval.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R02" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="5">
+    <div class="meta"><span class="chip id">R02</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>CrCl is 45. What lenalidomide dose?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Lenalidomide is ~82% excreted unchanged in urine, and its clearance falls linearly with CrCl, so the dose must follow renal function.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The label is specific: CrCl 30 to 60, lenalidomide 10 mg once daily, days 1-21 of 28. If 10 mg is tolerated without dose-limiting toxicity for two cycles, you can escalate to 15 mg.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>And if CrCl falls below 30?</b><br>15 mg every other day; on dialysis, 5 mg daily, after dialysis on dialysis days.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R03" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R03</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>Does daratumumab need a renal or hepatic dose adjustment?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>IgG antibodies are cleared by target-mediated disposition and proteolytic catabolism, not by glomerular filtration or hepatic metabolism.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">No renal adjustment. Population PK showed no clinically important effect of CrCl 15 to 89 or mild hepatic impairment; the effect of severe hepatic impairment is unknown. There are no dose reductions for daratumumab at all — you withhold it, not reduce it.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>And severe hepatic impairment?</b><br>Not studied. I&#39;d give it with closer monitoring and say the data don&#39;t exist.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R04" data-branch="practice" data-persona="community" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R04</span><span class="chip">Community oncologist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>What dexamethasone dose for an 80-year-old?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Dexamethasone&#39;s toxicity (infection, glucose, myopathy, delirium) rises with age and low body mass while its anti-myeloma contribution is modest in the antibody era.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">In MAIA, dexamethasone was 40 mg weekly, reduced to 20 mg weekly for patients older than 75 or with BMI under 18.5. On daratumumab days the dex dose serves as the premedication. For a frail patient, IFM2017-03 supports stopping dexamethasone after the first two cycles.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Does lowering dex lose efficacy?</b><br>In the frail, IFM2017-03 removed dex after two cycles and still beat Rd on PFS.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">[S14]</a> Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R05" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R05</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>What premedication before IV daratumumab?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>First-dose reactions are driven by cytokine release on binding; steroid, antipyretic and antihistamine blunt it.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">One to three hours before every infusion: a corticosteroid — in D-Rd, the background dexamethasone 20 mg counts — plus acetaminophen 650 to 1,000 mg and diphenhydramine 25 to 50 mg. After the infusion, consider low-dose oral steroid the next day unless background dex is given that day.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Can premedication be reduced later?</b><br>Reactions are mainly a first-infusion event; institutional protocols often taper the antihistamine and antipyretic after the first few doses.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R06" data-branch="practice" data-persona="community" data-cynefin="chaotic" data-risk="5">
+    <div class="meta"><span class="chip id">R06</span><span class="chip">Community oncologist</span><span class="chip">Chaotic</span><span class="risk" title="risk 5/5">●●●●●</span></div>
+    <h3>We started daratumumab without a type and screen and now the patient needs a transfusion. What do we do?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>CD38 is expressed on red cells; bound daratumumab makes the indirect antiglobulin test panreactive, masking alloantibodies — but ABO and RhD typing are unaffected.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">First the urgent part: ABO and RhD typing are not affected. If the transfusion is an emergency, give non-cross-matched ABO/RhD-compatible red cells per your blood bank. Then tell the blood bank the patient is on daratumumab; they can screen using DTT-treated red cells. The interference can persist up to six months after the last dose. Next time, type and screen before the first dose.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>How long will the blood bank problem last?</b><br>Up to six months after the last daratumumab dose, per the label.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R07" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R07</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Zoster prophylaxis — when to start and for how long?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Latent VZV reactivates when cellular immunity falls; prophylaxis must cover the period of immune suppression and its recovery.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The label is specific: start antiviral prophylaxis within one week of starting daratumumab and continue for three months after treatment ends. Agent and dose follow local practice — commonly acyclovir or valacyclovir.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Why three months after stopping?</b><br>Cellular immunity takes months to recover; reactivation risk outlasts the drug.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Antiviral agent and dose per institutional protocol</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R08" data-branch="practice" data-persona="community" data-cynefin="complicated" data-risk="4">
+    <div class="meta"><span class="chip id">R08</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>The patient is anti-HBc positive. Can I give daratumumab?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Loss of immune control lets HBV reactivate from cccDNA in previously infected hepatocytes; risk depends on serostatus and is mitigated by monitoring or antiviral prophylaxis.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Yes, with a plan. The label reports HBV reactivation in under 1% of daratumumab-treated patients, including fatal cases. It depends on serostatus: HBsAg-positive patients need antiviral prophylaxis; HBsAg-negative, anti-HBc-positive patients need either prophylaxis or HBV DNA monitoring, per hepatology practice. Screen everyone before the first dose.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>If I choose monitoring, how often?</b><br>HBV DNA and ALT at regular intervals — commonly every 1-3 months — and start antivirals on detectable DNA.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — HBV screening/prophylaxis recommendation — cite ASCO/AASLD or Taiwan hepatology guidance</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R09" data-branch="practice" data-persona="community" data-cynefin="complicated" data-risk="4">
+    <div class="meta"><span class="chip id">R09</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>Which thromboprophylaxis with lenalidomide-dexamethasone?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>IMiDs are prothrombotic and dexamethasone adds to it; the prophylaxis intensity should match the patient&#39;s thrombotic risk.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The label carries a boxed warning for venous and arterial thrombosis with lenalidomide plus dexamethasone and recommends antithrombotic prophylaxis. Which agent depends on risk: aspirin for standard-risk patients, LMWH or a DOAC for higher-risk patients, per IMWG-style risk assessment.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Does adding daratumumab change thrombotic risk?</b><br>The thrombotic driver is lenalidomide plus dexamethasone; prophylaxis decisions follow those two.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Cite thromboprophylaxis risk model (IMWG / ASCO) and DOAC data</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R10" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R10</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>ANC drops to 800 on day 14. What do I change?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Lenalidomide is myelosuppressive and dose-dependent; daratumumab is not dose-reduced, so the adjustment is to lenalidomide.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">The label is specific: ANC below 1,000 — interrupt lenalidomide and check counts weekly. When ANC is back to at least 1,000: if neutropenia was the only toxicity, resume at 25 mg or the starting dose; if there were other toxicities, resume one dose level lower, never below 2.5 mg. Daratumumab isn&#39;t reduced; withhold it if needed for count recovery.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>G-CSF instead of holding?</b><br>Commonly used to maintain dose intensity, per institutional practice; the label&#39;s rule is to interrupt below 1,000.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R11" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">R11</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Platelets fall below 30,000. What then?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Thrombocytopenia from lenalidomide is dose-dependent and reversible; dose de-escalation is stepwise.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Interrupt lenalidomide and check counts weekly. When platelets return to at least 30,000, resume at the next lower dose. For each subsequent drop, repeat — never below 2.5 mg daily.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R12" data-branch="practice" data-persona="community" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R12</span><span class="chip">Community oncologist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>How common are infusion reactions, and how do I run the first infusion?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Infusion reactions are driven by antigen burden and are largely a first-exposure phenomenon; slow first infusion or SC route reduces them.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Infusion reactions occurred in 37% at the first IV infusion, 2% at the second and 6% cumulatively after that. First dose: 1,000 mL, start at 50 mL/h, increase by 50 mL/h every hour to a maximum of 200 mL/h — or split 8 mg/kg over days 1 and 2. With subcutaneous daratumumab, systemic administration reactions were 7% at the first injection.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>What if a reaction happens?</b><br>Interrupt, treat, and once symptoms resolve restart at no more than half the rate at which it occurred; permanently stop for grade 4.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">[L2]</a> DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R13" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">R13</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>MAIA used IV. Can I use subcutaneous daratumumab with Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Hyaluronidase allows a large fixed SC dose to be absorbed; a fixed dose achieves therapeutic exposure across body weights.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Yes. MAIA used IV 16 mg/kg, but the subcutaneous label includes the D-Rd combination at 1,800 mg with 30,000 units hyaluronidase, given over 3 to 5 minutes into the abdomen, on the same schedule.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">[L2]</a> DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026<br><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">[S2]</a> Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R14" data-branch="practice" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">R14</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>My IgG-kappa patient has a persistent small M-spike on daratumumab. Is it residual disease?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Daratumumab is an IgG-κ protein; at low M-protein levels it can be the drug rather than the disease.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">It depends on the isotype and the level. In IgG-kappa myeloma a small persistent band may be daratumumab itself — the label warns of false-positive SPE and IFE. A daratumumab-specific IFE reflex assay, or marrow assessment, settles whether the patient is in CR.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Local availability of daratumumab-specific IFE reflex assay</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R15" data-branch="practice" data-persona="community" data-cynefin="complicated" data-risk="3">
+    <div class="meta"><span class="chip id">R15</span><span class="chip">Community oncologist</span><span class="chip">Complicated</span><span class="risk" title="risk 3/5">●●●○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>How do I reduce infection risk on D-Rd?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Risk is front-loaded: active disease, high-dose steroid and new anti-CD38 exposure coincide in the first months.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Concentrate effort early — in pooled MAIA and ALCYONE data, grade 3/4 infections peaked in the first six months. Zoster prophylaxis per label, HBV screening, vaccination before or early in therapy, dexamethasone reduction in older or underweight patients, and IVIG for patients with recurrent serious infections and hypogammaglobulinemia.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">[S7]</a> Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      <div class="verify">⚠ UNVERIFIED — IVIG and vaccination recommendations — cite IMWG infection guidance</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R16" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R16</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>What pregnancy-prevention requirements apply to lenalidomide?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Thalidomide analogues are teratogenic as a class; exposure prevention is enforced through a restricted-distribution program.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Lenalidomide carries a boxed warning for embryo-fetal toxicity and is distributed under a restricted program in the US; in Taiwan a risk management plan applies. Pregnancy testing and contraception are required for patients who can become pregnant, and lenalidomide is present in semen, so male patients need condoms.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Male patients too?</b><br>Yes — lenalidomide is present in semen, so condoms are required even after vasectomy, per the US program.</p></div>
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Taiwan lenalidomide RMP requirements (TFDA 仿單 / 風險管理計畫)</div>
+    </div>
+  </article>
+  
+  <article class="q" id="R17" data-branch="practice" data-persona="payer" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">R17</span><span class="chip">Payer</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Does NHI cover subcutaneous daratumumab?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Reimbursement attaches to the listed product and indication; a new route needs its own listing.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Yes, within the same indications — rule 9.78, as revised effective 1 September 2025, names both Darzalex IV and subcutaneous injection. The indication limits still apply: frontline only with VTd for transplant-eligible patients.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">[N1]</a> NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R18" data-branch="practice" data-persona="pharmacist" data-cynefin="clear" data-risk="3">
+    <div class="meta"><span class="chip id">R18</span><span class="chip">Clinical pharmacist</span><span class="chip">Clear</span><span class="risk" title="risk 3/5">●●●○○</span></div>
+    <h3>Does daratumumab affect ABO typing or the crossmatch?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>Daratumumab binds CD38 on red cells, not the ABO or RhD antigens; it interferes with antibody screening and crossmatch, not with typing.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">ABO and RhD typing are not affected. The antibody screen and crossmatch are: the indirect antiglobulin test turns positive and can stay positive up to six months after the last dose. Blood banks use DTT-treated red cells to work around it.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R19" data-branch="practice" data-persona="ai_senior" data-cynefin="clear" data-risk="4">
+    <div class="meta"><span class="chip id">R19</span><span class="chip">AI-armed senior</span><span class="chip">Clear</span><span class="risk" title="risk 4/5">●●●●○</span></div>
+    <h3>The AI told me: daratumumab 16 mg/kg weekly for 8 weeks, then monthly. Correct?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>The schedule steps down in three phases as target binding saturates; skipping a phase under-doses during the period of highest disease burden.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">Not quite — there are three phases, not two. Weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks from week 25. Skipping the every-two-week phase under-doses exactly when disease burden is highest.</div>
+      <div class="lbl">Follow-ups</div><div class="fu"><p><b>Is it the same for SC?</b><br>Same schedule; the dose is a fixed 1,800 mg instead of 16 mg/kg.</p></div>
+      <div class="shell"><div><div class="lbl" style="margin-top:0">What the AI told them</div>Daratumumab is given at 16 mg/kg IV weekly for 8 weeks, then every 4 weeks until progression.</div><div><div class="lbl" style="margin-top:0">Blind spot</div>Drops the every-2-week phase in weeks 9 to 24 — a dosing error if followed.</div></div>
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">[L1]</a> DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">[L2]</a> DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026</div>
+      
+    </div>
+  </article>
+  
+  <article class="q" id="R20" data-branch="practice" data-persona="statistician" data-cynefin="complicated" data-risk="2">
+    <div class="meta"><span class="chip id">R20</span><span class="chip">Statistician</span><span class="chip">Complicated</span><span class="risk" title="risk 2/5">●●○○○</span><span class="chip warnchip">⚠ UNVERIFIED</span></div>
+    <h3>How many patients needed lenalidomide dose reductions, and does reduced dose intensity undermine efficacy?</h3>
+    <div class="reveal">
+      <div class="principle"><small>First principle</small>In continuous therapy, duration on treatment contributes more to benefit than full dose intensity; dose reduction that keeps a patient on therapy usually preserves efficacy.</div>
+      <div class="lbl">30-second answer</div>
+      <div class="answer">I&#39;d quote the reduction rates from MAIA&#39;s safety tables. The principle matters more than the exact number: in continuous therapy, staying on treatment carries the benefit. A patient on 10 or 15 mg for years usually does better than one on 25 mg who stops at month four.</div>
+      
+      
+      <div class="lbl">Sources</div><div class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">[L3]</a> REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026</div>
+      <div class="verify">⚠ UNVERIFIED — Lenalidomide dose-reduction rates by arm (MAIA full text/supplement)</div>
+    </div>
+  </article>
+  
+</section>
+
+<section id="dose">
+  <h2>Dose quick reference</h2>
+  <table><thead><tr><th>Item</th><th>Value</th><th>Source</th></tr></thead><tbody>
+  <tr><td><b>Daratumumab IV</b></td><td>16 mg/kg: weekly wk 1-8 → q2w wk 9-24 → q4w wk 25+ until PD</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Daratumumab IV, first dose</b></td><td>May split 8 mg/kg D1 + D2. Wk 1: 1,000 mL, start 50 mL/h, +50 mL/h hourly, max 200</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Daratumumab SC</b></td><td>1,800 mg / 30,000 U hyaluronidase, abdomen, 3-5 min; same schedule</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">L2</a></td></tr><tr><td><b>Daratumumab dose reduction</b></td><td>None. Withhold for toxicity (e.g. to allow count recovery)</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Pre-medication (1-3 h before)</b></td><td>Dex 20 mg (background dex serves as premed) + acetaminophen 650-1,000 mg + diphenhydramine 25-50 mg</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Lenalidomide</b></td><td>25 mg D1-21 q28d</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr><tr><td><b>Lenalidomide, CrCl 30-60</b></td><td>10 mg daily; may escalate to 15 mg after 2 cycles if tolerated</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr><tr><td><b>Lenalidomide, CrCl &lt;30, no dialysis</b></td><td>15 mg every other day</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr><tr><td><b>Lenalidomide, dialysis</b></td><td>5 mg daily; after dialysis on dialysis days</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr><tr><td><b>Lenalidomide, ANC &lt;1,000 / plt &lt;30k</b></td><td>Interrupt; resume at next lower dose (ANC only toxicity: resume 25 mg); not below 2.5 mg</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr><tr><td><b>Dexamethasone (MAIA)</b></td><td>40 mg weekly; 20 mg weekly if age &gt;75 or BMI &lt;18.5</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Zoster prophylaxis</b></td><td>Start within 1 wk of daratumumab; continue 3 mo after end</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Before first dose</b></td><td>Type and screen (IAT interference up to 6 mo after last dose)</td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">L1</a></td></tr><tr><td><b>Thromboprophylaxis</b></td><td>Recommended with lenalidomide + dex (boxed warning); agent by risk<div class="verify">⚠ Agent selection (aspirin vs LMWH) per IMWG/ASCO — cite guideline</div></td><td class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">L3</a></td></tr>
+  </tbody></table>
+</section>
+
+<section id="unverified">
+  <h2>⚠ Unverified — check before the talk</h2>
+  <table><tbody><tr><td style="width:120px"><b><a href="#C04">C04</a></b></td><td>Proportion of Rd patients receiving subsequent anti-CD38 therapy (Facon, Leukemia 2026, full text)</td></tr><tr><td style="width:120px"><b><a href="#C05">C05</a></b></td><td>MAIA renal eligibility threshold (CrCl ≥30 mL/min?) — NEJM 2019 Methods/protocol</td></tr><tr><td style="width:120px"><b><a href="#C10">C10</a></b></td><td>Local availability of a daratumumab-specific IFE reflex assay</td></tr><tr><td style="width:120px"><b><a href="#C11">C11</a></b></td><td>Inspect the final OS Kaplan-Meier figure for early crossing (Facon, Leukemia 2026)</td></tr><tr><td style="width:120px"><b><a href="#C13">C13</a></b></td><td>Delivered lenalidomide dose intensity by arm (MAIA safety tables)</td></tr><tr><td style="width:120px"><b><a href="#A01">A01</a></b></td><td>Cite Asian daratumumab data (e.g. Asia-Pacific trials or Taiwanese real-world series)</td></tr><tr><td style="width:120px"><b><a href="#A05">A05</a></b></td><td>MAIA renal eligibility threshold</td></tr><tr><td style="width:120px"><b><a href="#W02">W02</a></b></td><td>Re-check 9.78 and 9.43 for revisions after the effective dates cited, as of the talk date</td></tr><tr><td style="width:120px"><b><a href="#W03">W03</a></b></td><td>HRQoL scales and effect sizes (Perrot, Eur J Haematol 2025) — only the title was read</td></tr><tr><td style="width:120px"><b><a href="#W09">W09</a></b></td><td>Search CDE/NHI HTA reports for frontline D-Rd</td></tr><tr><td style="width:120px"><b><a href="#P03">P03</a></b></td><td>Attrition rate by line in transplant-ineligible NDMM — cite (e.g. Fonseca, Oncologist 2023)</td></tr><tr><td style="width:120px"><b><a href="#P05">P05</a></b></td><td>ITC funding and author affiliations — check disclosures</td></tr><tr><td style="width:120px"><b><a href="#P06">P06</a></b></td><td>Cite relapse options after D-Rd (NCCN Multiple Myeloma, current version) and local reimbursement</td></tr><tr><td style="width:120px"><b><a href="#P07">P07</a></b></td><td>NCCN Multiple Myeloma current version — category and preference of D-Rd</td></tr><tr><td style="width:120px"><b><a href="#P10">P10</a></b></td><td>Frontline bortezomib-based NHI coverage for transplant-ineligible patients — check current rule</td></tr><tr><td style="width:120px"><b><a href="#P11">P11</a></b></td><td>Bortezomib schedule and neuropathy rates in CEPHEUS (full text)</td></tr><tr><td style="width:120px"><b><a href="#R07">R07</a></b></td><td>Antiviral agent and dose per institutional protocol</td></tr><tr><td style="width:120px"><b><a href="#R08">R08</a></b></td><td>HBV screening/prophylaxis recommendation — cite ASCO/AASLD or Taiwan hepatology guidance</td></tr><tr><td style="width:120px"><b><a href="#R09">R09</a></b></td><td>Cite thromboprophylaxis risk model (IMWG / ASCO) and DOAC data</td></tr><tr><td style="width:120px"><b><a href="#R14">R14</a></b></td><td>Local availability of daratumumab-specific IFE reflex assay</td></tr><tr><td style="width:120px"><b><a href="#R15">R15</a></b></td><td>IVIG and vaccination recommendations — cite IMWG infection guidance</td></tr><tr><td style="width:120px"><b><a href="#R16">R16</a></b></td><td>Taiwan lenalidomide RMP requirements (TFDA 仿單 / 風險管理計畫)</td></tr><tr><td style="width:120px"><b><a href="#R20">R20</a></b></td><td>Lenalidomide dose-reduction rates by arm (MAIA full text/supplement)</td></tr><tr><td style="width:120px"><b>Dose: Thromboprophylaxis</b></td><td>Agent selection (aspirin vs LMWH) per IMWG/ASCO — cite guideline</td></tr></tbody></table>
+</section>
+
+<section id="refs">
+  <h2>References</h2>
+  <table><tbody><tr><td style="width:48px"><b>S1</b></td><td>Facon T, et al. N Engl J Med 2019;380:2104-2115 (MAIA primary)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/31141632/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/31141632/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S2</b></td><td>Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/34655533/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/34655533/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S3</b></td><td>Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/40016302/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/40016302/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S4</b></td><td>Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42637879/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/42637879/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S5</b></td><td>Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39815052/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/39815052/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S6</b></td><td>Facon T, et al. Leukemia 2026, doi:10.1038/s41375-026-03128-5 (MAIA frailty)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42839070/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/42839070/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S7</b></td><td>Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42085642/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/42085642/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S8</b></td><td>Durie BGM, et al. Lancet 2017;389:519-527 (SWOG S0777, VRd vs Rd)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/28017406/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/28017406/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S9</b></td><td>Durie BGM, et al. Adv Ther 2024;41:1923-1937 (ITC D-Rd vs VRd)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38494542/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/38494542/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S10</b></td><td>Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38832972/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/38832972/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S11</b></td><td>Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39910273/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/39910273/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S12</b></td><td>Usmani SZ, et al. J Clin Oncol 2026, doi:10.1200/JCO-26-00401 (CEPHEUS TI subgroup)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42789828/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/42789828/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S13</b></td><td>Leleu X, et al. Nat Med 2024;30:2235-2241 (BENEFIT, Isa-VRd vs Isa-Rd)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/38830994/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/38830994/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S14</b></td><td>Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/41038184/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/41038184/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S15</b></td><td>Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/42888080/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/42888080/</a> · read: abstract</span></td></tr><tr><td style="width:48px"><b>S16</b></td><td>Perrot A, et al. Eur J Haematol 2025 (MAIA HRQoL)<br><span class="src"><a href="https://pubmed.ncbi.nlm.nih.gov/39952901/" target="_blank" rel="noopener">https://pubmed.ncbi.nlm.nih.gov/39952901/</a> · read: title only</span></td></tr><tr><td style="width:48px"><b>L1</b></td><td>DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026<br><span class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b" target="_blank" rel="noopener">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b</a> · read: label §2.2-2.3, §5.1-5.6, §6, §12.3, §14.1</span></td></tr><tr><td style="width:48px"><b>L2</b></td><td>DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026<br><span class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0" target="_blank" rel="noopener">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0</a> · read: label §2.1-2.2, §5.1</span></td></tr><tr><td style="width:48px"><b>L3</b></td><td>REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026<br><span class="src"><a href="https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be" target="_blank" rel="noopener">https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be</a> · read: label boxed warning, §2.1, §2.6, §12.3</span></td></tr><tr><td style="width:48px"><b>N1</b></td><td>NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)<br><span class="src"><a href="https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf" target="_blank" rel="noopener">https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf</a> · read: rule text</span></td></tr><tr><td style="width:48px"><b>N2</b></td><td>NHI 藥品給付規定 9.43 Lenalidomide (eff. 115/4/1 = 2026-04-01)<br><span class="src"><a href="https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf" target="_blank" rel="noopener">https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf</a> · read: rule text</span></td></tr><tr><td style="width:48px"><b>N3</b></td><td>NHI 藥品給付規定 9.108 Isatuximab (eff. 113/4/1 = 2024-04-01)<br><span class="src"><a href="https://www.nhi.gov.tw/ch/dl-66950-78c9e5fca763458f9662d3407113e2b5-1.pdf" target="_blank" rel="noopener">https://www.nhi.gov.tw/ch/dl-66950-78c9e5fca763458f9662d3407113e2b5-1.pdf</a> · read: rule text</span></td></tr><tr><td style="width:48px"><b>F1</b></td><td>FDA approval of D-VRd (Darzalex Faspro) for transplant-ineligible NDMM, 27 Jan 2026 (Pharmacy Times)<br><span class="src"><a href="https://www.pharmacytimes.com/view/fda-approves-daratumumab-and-hyaluronidase-fihj-with-quadruplet-regimen-for-newly-diagnosed-multiple-myeloma" target="_blank" rel="noopener">https://www.pharmacytimes.com/view/fda-approves-daratumumab-and-hyaluronidase-fihj-with-quadruplet-regimen-for-newly-diagnosed-multiple-myeloma</a> · read: news report</span></td></tr></tbody></table>
+</section>
+</main>
+</div>
+<script>
+(function(){
+  var $=function(s){return document.querySelector(s)}, arts=[].slice.call(document.querySelectorAll('article.q')), heads=[].slice.call(document.querySelectorAll('h2.bh'));
+  function apply(){
+    var t=$('#qs').value.toLowerCase(), b=$('#fb').value, p=$('#fp').value, c=$('#fc').value, r=+$('#fr').value, n=0, seen={};
+    arts.forEach(function(a){
+      var ok=(!b||a.dataset.branch===b)&&(!p||a.dataset.persona===p)&&(!c||a.dataset.cynefin===c)&&(+a.dataset.risk>=r)&&(!t||a.textContent.toLowerCase().indexOf(t)>-1);
+      a.classList.toggle('hidden',!ok); if(ok){n++;seen[a.dataset.branch]=1}
+    });
+    heads.forEach(function(h){h.classList.toggle('hidden',!seen[h.dataset.branch])});
+    $('#cnt').textContent=n+' shown';
+  }
+  ['#qs','#fb','#fp','#fc','#fr'].forEach(function(s){$(s).addEventListener('input',apply)});
+  $('#rh').addEventListener('click',function(){document.body.classList.toggle('rehearse');this.classList.toggle('on')});
+  arts.forEach(function(a){a.querySelector('h3').addEventListener('click',function(){if(document.body.classList.contains('rehearse'))a.classList.toggle('open')})});
+  apply();
+})();
+</script>
+</body>
+</html>

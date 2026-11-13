@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"><title>Pocket card — {{ meta.title }}</title>
+<style>
+@page{size:A4 landscape;margin:8mm}
+*{box-sizing:border-box}
+body{margin:0;font:6.8pt/1.25 Arial,Helvetica,sans-serif;color:#111}
+h1{font-size:11pt;margin:0}
+.sub{color:#555;font-size:7pt;margin-bottom:4px}
+.cols{display:grid;grid-template-columns:1fr 1fr 1fr;gap:5mm}
+.uvl{font-size:6.2pt;line-height:1.3}
+h2{font-size:8pt;text-transform:uppercase;letter-spacing:.06em;border-bottom:1.2pt solid #111;margin:4px 0 3px;padding-bottom:1px}
+table{border-collapse:collapse;width:100%}
+td,th{padding:2px 3px;border-bottom:.4pt solid #ccc;vertical-align:top;text-align:left}
+th{border-bottom:.8pt solid #111}
+.id{font-weight:700;white-space:nowrap}
+.q{font-weight:700}
+.p{font-style:italic;color:#333}
+.w{color:#9a3412}
+.op td{font-size:6.8pt}
+</style></head><body>
+<h1>{{ meta.title }} — pocket card</h1>
+<div class="sub">{{ meta.speaker or "" }} · sources checked {{ meta.checked }} · {{ nq }} questions in the full kit</div>
+<div class="cols">
+<div>
+  <h2>Top 10 risks (1–5)</h2>
+  <table><tbody>
+  {% for q in top10[:5] %}<tr><td class="id">{{ q.id }}</td><td><span class="q">{{ q.q }}</span><br><span class="p">{{ q.principle }}</span><br>{{ q._one }}{% if q.verify %} <span class="w">⚠</span>{% endif %}</td></tr>{% endfor %}
+  </tbody></table>
+  <h2>Cynefin openers</h2>
+  <table class="op"><tbody>{% for c in cynefin %}<tr><td class="id">{{ c.label }}</td><td>“{{ c.opener }}”</td></tr>{% endfor %}</tbody></table>
+  <h2>Answer shape</h2>
+  <div>Principle → Evidence (one number, one source) → Application to the patient. 30 seconds.</div>
+</div>
+<div>
+  <h2>Top 10 risks (6–10)</h2>
+  <table><tbody>
+  {% for q in top10[5:] %}<tr><td class="id">{{ q.id }}</td><td><span class="q">{{ q.q }}</span><br><span class="p">{{ q.principle }}</span><br>{{ q._one }}{% if q.verify %} <span class="w">⚠</span>{% endif %}</td></tr>{% endfor %}
+  </tbody></table>
+  <h2 class="w">⚠ Unverified — check before the talk ({{ unverified|length }})</h2>
+  <div class="uvl">{% for k, v in unverified %}<b>{{ k }}</b> {{ v }}{% if not loop.last %} · {% endif %}{% endfor %}</div>
+</div>
+<div>
+  <h2>Dose quick reference</h2>
+  <table><tbody>{% for r in dose_table %}<tr><td class="id">{{ r.item }}</td><td>{{ r.value }}{% if r.verify %} <span class="w">⚠</span>{% endif %}</td><td>{{ r.source }}</td></tr>{% endfor %}</tbody></table>
+</div>
+</div>
+</body></html>

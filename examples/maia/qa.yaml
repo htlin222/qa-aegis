@@ -1,0 +1,1036 @@
+meta:
+  title: "MAIA: Daratumumab-Rd in Transplant-Ineligible NDMM"
+  subtitle: "Q&A Defense Kit"
+  speaker: "Speaker name, Institution"
+  talk_date: 2026-11-20
+  checked: 2026-11-13
+  argdown: claims.argdown
+  core_claims:
+    - "D-Rd prolongs overall survival versus Rd: median OS 90.3 vs 64.1 months at 7.5 years of follow-up."
+    - "The relative benefit holds in patients aged 75+ and with high-risk cytogenetics; in the frail, dexamethasone-sparing DR is the evidence-based option."
+    - "D-Rd remains a first-line backbone; fit patients can add bortezomib (D-VRd / Isa-VRd)."
+    - "In Taiwan, NHI rules place daratumumab at relapse, not up front, for transplant-ineligible patients."
+
+sources:
+  - {id: S1, cite: "Facon T, et al. N Engl J Med 2019;380:2104-2115 (MAIA primary)", url: "https://pubmed.ncbi.nlm.nih.gov/31141632/", read: "abstract"}
+  - {id: S2, cite: "Facon T, et al. Lancet Oncol 2021;22:1582-1596 (MAIA interim OS)", url: "https://pubmed.ncbi.nlm.nih.gov/34655533/", read: "abstract"}
+  - {id: S3, cite: "Facon T, et al. Leukemia 2025;39:942-950 (MAIA 64.5-mo update)", url: "https://pubmed.ncbi.nlm.nih.gov/40016302/", read: "abstract"}
+  - {id: S4, cite: "Facon T, et al. Leukemia 2026;40:2530-2539 (MAIA final survival)", url: "https://pubmed.ncbi.nlm.nih.gov/42637879/", read: "abstract"}
+  - {id: S5, cite: "Moreau P, et al. Leukemia 2025;39:710-719 (MAIA key subgroups)", url: "https://pubmed.ncbi.nlm.nih.gov/39815052/", read: "abstract"}
+  - {id: S6, cite: "Facon T, et al. Leukemia 2026, doi:10.1038/s41375-026-03128-5 (MAIA frailty)", url: "https://pubmed.ncbi.nlm.nih.gov/42839070/", read: "abstract"}
+  - {id: S7, cite: "Bahlis N, et al. Blood Adv 2026;10:4541-4550 (infections, MAIA+ALCYONE pooled)", url: "https://pubmed.ncbi.nlm.nih.gov/42085642/", read: "abstract"}
+  - {id: S8, cite: "Durie BGM, et al. Lancet 2017;389:519-527 (SWOG S0777, VRd vs Rd)", url: "https://pubmed.ncbi.nlm.nih.gov/28017406/", read: "abstract"}
+  - {id: S9, cite: "Durie BGM, et al. Adv Ther 2024;41:1923-1937 (ITC D-Rd vs VRd)", url: "https://pubmed.ncbi.nlm.nih.gov/38494542/", read: "abstract"}
+  - {id: S10, cite: "Facon T, et al. N Engl J Med 2024;391:1597-1609 (IMROZ, Isa-VRd vs VRd)", url: "https://pubmed.ncbi.nlm.nih.gov/38832972/", read: "abstract"}
+  - {id: S11, cite: "Usmani SZ, et al. Nat Med 2025;31:1195-1202 (CEPHEUS, D-VRd vs VRd)", url: "https://pubmed.ncbi.nlm.nih.gov/39910273/", read: "abstract"}
+  - {id: S12, cite: "Usmani SZ, et al. J Clin Oncol 2026, doi:10.1200/JCO-26-00401 (CEPHEUS TI subgroup)", url: "https://pubmed.ncbi.nlm.nih.gov/42789828/", read: "abstract"}
+  - {id: S13, cite: "Leleu X, et al. Nat Med 2024;30:2235-2241 (BENEFIT, Isa-VRd vs Isa-Rd)", url: "https://pubmed.ncbi.nlm.nih.gov/38830994/", read: "abstract"}
+  - {id: S14, cite: "Manier S, et al. Lancet Oncol 2025;26:1323-1333 (IFM2017-03, DR vs Rd in frail)", url: "https://pubmed.ncbi.nlm.nih.gov/41038184/", read: "abstract"}
+  - {id: S15, cite: "Perrot A, et al. Clin Lymphoma Myeloma Leuk 2026, doi:10.1016/j.clml.2026.09.002 (IFM 2026 recommendations)", url: "https://pubmed.ncbi.nlm.nih.gov/42888080/", read: "abstract"}
+  - {id: S16, cite: "Perrot A, et al. Eur J Haematol 2025 (MAIA HRQoL)", url: "https://pubmed.ncbi.nlm.nih.gov/39952901/", read: "title only"}
+  - {id: L1, cite: "DARZALEX (daratumumab IV) USPI, DailyMed, Sep 2026", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=a4d0efe9-5e54-467e-9eb4-56fa7d53b60b", read: "label §2.2-2.3, §5.1-5.6, §6, §12.3, §14.1"}
+  - {id: L2, cite: "DARZALEX FASPRO (daratumumab/hyaluronidase SC) USPI, DailyMed, Oct 2026", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=4bb241af-4299-4373-8762-2d6709515db0", read: "label §2.1-2.2, §5.1"}
+  - {id: L3, cite: "REVLIMID (lenalidomide) USPI, DailyMed, Aug 2026", url: "https://dailymed.nlm.nih.gov/dailymed/drugInfo.cfm?setid=5fa97bf5-28a2-48f1-8955-f56012d296be", read: "label boxed warning, §2.1, §2.6, §12.3"}
+  - {id: N1, cite: "NHI 藥品給付規定 9.78 Daratumumab (eff. 114/9/1 = 2025-09-01)", url: "https://www.nhi.gov.tw/ch/dl-89156-62ce67d4b5924f07924b9725cde88472-1.pdf", read: "rule text"}
+  - {id: N2, cite: "NHI 藥品給付規定 9.43 Lenalidomide (eff. 115/4/1 = 2026-04-01)", url: "https://www.rootlaw.com.tw/Attach/S-Doc/01611503130022-002.pdf", read: "rule text"}
+  - {id: N3, cite: "NHI 藥品給付規定 9.108 Isatuximab (eff. 113/4/1 = 2024-04-01)", url: "https://www.nhi.gov.tw/ch/dl-66950-78c9e5fca763458f9662d3407113e2b5-1.pdf", read: "rule text"}
+  - {id: F1, cite: "FDA approval of D-VRd (Darzalex Faspro) for transplant-ineligible NDMM, 27 Jan 2026 (Pharmacy Times)", url: "https://www.pharmacytimes.com/view/fda-approves-daratumumab-and-hyaluronidase-fihj-with-quadruplet-regimen-for-newly-diagnosed-multiple-myeloma", read: "news report"}
+
+dose_table:
+  - {item: "Daratumumab IV", value: "16 mg/kg: weekly wk 1-8 → q2w wk 9-24 → q4w wk 25+ until PD", source: L1}
+  - {item: "Daratumumab IV, first dose", value: "May split 8 mg/kg D1 + D2. Wk 1: 1,000 mL, start 50 mL/h, +50 mL/h hourly, max 200", source: L1}
+  - {item: "Daratumumab SC", value: "1,800 mg / 30,000 U hyaluronidase, abdomen, 3-5 min; same schedule", source: L2}
+  - {item: "Daratumumab dose reduction", value: "None. Withhold for toxicity (e.g. to allow count recovery)", source: L1}
+  - {item: "Pre-medication (1-3 h before)", value: "Dex 20 mg (background dex serves as premed) + acetaminophen 650-1,000 mg + diphenhydramine 25-50 mg", source: L1}
+  - {item: "Lenalidomide", value: "25 mg D1-21 q28d", source: L3}
+  - {item: "Lenalidomide, CrCl 30-60", value: "10 mg daily; may escalate to 15 mg after 2 cycles if tolerated", source: L3}
+  - {item: "Lenalidomide, CrCl <30, no dialysis", value: "15 mg every other day", source: L3}
+  - {item: "Lenalidomide, dialysis", value: "5 mg daily; after dialysis on dialysis days", source: L3}
+  - {item: "Lenalidomide, ANC <1,000 / plt <30k", value: "Interrupt; resume at next lower dose (ANC only toxicity: resume 25 mg); not below 2.5 mg", source: L3}
+  - {item: "Dexamethasone (MAIA)", value: "40 mg weekly; 20 mg weekly if age >75 or BMI <18.5", source: L1}
+  - {item: "Zoster prophylaxis", value: "Start within 1 wk of daratumumab; continue 3 mo after end", source: L1}
+  - {item: "Before first dose", value: "Type and screen (IAT interference up to 6 mo after last dose)", source: L1}
+  - {item: "Thromboprophylaxis", value: "Recommended with lenalidomide + dex (boxed warning); agent by risk", source: L3, verify: "Agent selection (aspirin vs LMWH) per IMWG/ASCO — cite guideline"}
+
+questions:
+
+# ───────────────────────── CREDIBLE ─────────────────────────
+  - id: C01
+    branch: credible
+    persona: ai_senior
+    cynefin: complicated
+    risk: 5
+    attack: undermine
+    q: "Rd isn't a real comparator anymore — VRd already beat it in SWOG S0777. Didn't MAIA just beat a straw man?"
+    oneliner: "Rd was the label standard at enrolment (2015-17). D-Rd beats Rd; vs VRd only an Rd-anchored ITC (HR 0.59). Triplet vs quad = CEPHEUS/IMROZ."
+    ai_answer: "MAIA compared D-Rd with Rd, a standard at the time. Since VRd has shown superiority over Rd, many experts consider the comparator outdated."
+    blind_spot: "No date logic: MAIA enrolled 2015-17 and S0777 was published in 2017, with transplant-intent patients included. No mention that the only D-Rd vs VRd evidence is an Rd-anchored indirect comparison, or that the quadruplet trials compared against VRd, not D-Rd."
+    principle: "A randomized trial answers 'better than this comparator'; whether that matters today depends on whether the comparator was standard when patients were enrolled and how it links to today's standard."
+    answer: >-
+      It depends on which year you mean. MAIA enrolled from 2015 to 2017, when Rd was the label standard for transplant-ineligible patients;
+      S0777 was published in 2017 and also enrolled patients with transplant intent. So Rd was a fair control then.
+      Today the honest claim is narrower: D-Rd beats Rd. Against VRd we only have an Rd-anchored indirect comparison favouring D-Rd, HR 0.59 —
+      hypothesis-level. The direct triplet-versus-quadruplet answer comes from CEPHEUS and IMROZ, not MAIA.
+    followups:
+      - q: "Is an indirect comparison worth anything?"
+        a: "It adjusts for measured differences only. Era, subsequent therapy and assessment schedules differ. I treat it as consistent with, not proof of."
+      - q: "Then why not just give VRd?"
+        a: "For a fit patient I'd add bortezomib to the antibody backbone rather than choose between them — that's what CEPHEUS and IMROZ tested."
+    sources: [S2, S8, S9, S10, S11]
+
+  - id: C02
+    branch: credible
+    persona: statistician
+    cynefin: clear
+    risk: 4
+    q: "The 2021 OS result came from an interim analysis. Are we over-reading an early look?"
+    principle: "An interim analysis spends alpha against a stricter prespecified boundary; a result that crosses it is valid, and later updates are descriptive."
+    answer: >-
+      The data are clear: the interim OS analysis crossed its prespecified stopping boundary — p = 0.0013 against a boundary of 0.0414, HR 0.68.
+      Everything after that, including the final analysis at 89 months, is descriptive follow-up of a result already established.
+      And the HR didn't drift: 0.66 at 64.5 months, 0.67 at final. A lucky early estimate usually shrinks; this one didn't.
+    followups:
+      - q: "Why does a stable HR matter?"
+        a: "Random highs regress toward the truth with more events. Stability across three analyses argues the early effect was real."
+    sources: [S2, S3, S4]
+
+  - id: C03
+    branch: credible
+    persona: ai_senior
+    cynefin: clear
+    risk: 4
+    attack: rebut
+    q: "It was open-label. Isn't the PFS benefit biased?"
+    ai_answer: "Open-label designs can bias progression-based endpoints, which is a recognized limitation of MAIA."
+    blind_spot: "Omits that MAIA's PFS was centrally assessed and that OS — which no assessor can bias — moved the same way."
+    principle: "Assessment bias affects endpoints that require judgment; centrally assessed endpoints and death resist it."
+    answer: >-
+      Fair concern for subjective endpoints. Two facts answer it: PFS in MAIA was centrally assessed, and overall survival — which an
+      assessor cannot bias — went the same direction, HR 0.67 at final. When the unbiasable endpoint agrees, assessment bias isn't the explanation.
+    followups:
+      - q: "Could open-label affect treatment decisions, like earlier discontinuation in the control arm?"
+        a: "It could affect behaviour. Time to next treatment was also longer with D-Rd, HR 0.51, which is hard to produce through behaviour alone."
+    sources: [S2, S4]
+
+  - id: C04
+    branch: credible
+    persona: statistician
+    cynefin: complicated
+    risk: 5
+    attack: undercut
+    q: "OS depends on what control patients received at relapse. How many Rd patients later got an anti-CD38 antibody?"
+    oneliner: "OS compares 'anti-CD38 first' vs 'Rd first, then era access'. TTNT HR 0.51; gain held 7 yrs. Claim = up-front use, not 'timing never matters'."
+    principle: "OS compares whole strategies including post-progression therapy; limited access to the experimental class in the control arm makes early use look better than use at any time."
+    answer: >-
+      Right — OS here compares 'anti-CD38 up front' with 'Rd first, then what was available'. The exact proportion of Rd patients who later
+      received an anti-CD38 should be quoted from the final analysis. What supports the result: time to next treatment was much longer,
+      HR 0.51, and the survival gain held through seven years. So I phrase the claim as: using daratumumab first, under that era's access,
+      prolongs survival — not that timing never matters.
+    followups:
+      - q: "So saving daratumumab for relapse could be just as good?"
+        a: "That's a sequencing question nobody has randomized. In older patients, attrition means many never reach second line — that's the bet you make by waiting."
+    sources: [S4]
+    verify: "Proportion of Rd patients receiving subsequent anti-CD38 therapy (Facon, Leukemia 2026, full text)"
+
+  - id: C05
+    branch: credible
+    persona: statistician
+    cynefin: complicated
+    risk: 3
+    q: "The Rd arm had a median PFS of 34.4 months — longer than older Rd series. Was this a selected population?"
+    principle: "Control-arm outcomes reflect eligibility, era and supportive care; comparing control arms across trials is confounded, but randomization keeps the within-trial comparison fair."
+    answer: >-
+      Probably fitter than clinic patients: ECOG 0 to 2, adequate renal function. S0777's Rd arm had a median of 30 months, so 34.4 isn't out of line
+      for continuous Rd in a trial population. Selection limits who the result applies to; it doesn't bias the randomized comparison.
+    sources: [S3, S8, S2]
+    verify: "MAIA renal eligibility threshold (CrCl ≥30 mL/min?) — NEJM 2019 Methods/protocol"
+
+  - id: C06
+    branch: credible
+    persona: ai_senior
+    cynefin: clear
+    risk: 3
+    q: "MRD negativity was only about 30% with D-Rd. Isn't that weak next to quadruplets at 60%?"
+    ai_answer: "MAIA reported MRD-negativity of roughly 24-32% with D-Rd, lower than the ~60% reported with D-VRd in CEPHEUS."
+    blind_spot: "MRD rates are not comparable across trials (timing, regimen, number of marrow assessments). Within MAIA the comparison is 32.1% vs 11.1%. MAIA has final OS; CEPHEUS OS is immature."
+    principle: "MRD rates depend on threshold, denominator and when marrow is sampled; they compare fairly only within a trial."
+    answer: >-
+      The data are clear within the trial: 32.1% versus 11.1% at 10⁻⁵, intention-to-treat, and sustained MRD negativity 16.8% versus 3.3%.
+      Across trials the numbers aren't comparable — different regimens, timing and assessment schedules. And MAIA has what the quadruplet trials
+      don't yet have: a 7.5-year median overall survival.
+    sources: [S3, S11, S4]
+
+  - id: C07
+    branch: credible
+    persona: statistician
+    cynefin: complicated
+    risk: 2
+    q: "Is MRD negativity a validated surrogate for overall survival in this setting?"
+    principle: "A surrogate is validated when treatment effects on it predict treatment effects on survival across trials, not just when MRD-negative patients do better."
+    answer: >-
+      At the patient level MRD negativity strongly predicts longer PFS; trial-level validation for OS is the harder bar. That's why I don't lean
+      on MRD for MAIA — MAIA doesn't need a surrogate, it has final OS. Where MRD matters is the quadruplet trials, whose OS is still immature.
+    sources: [S4, S12]
+
+  - id: C08
+    branch: credible
+    persona: ai_senior
+    cynefin: chaotic
+    risk: 4
+    attack: rebut
+    q: "Serious adverse events were higher with daratumumab. So it causes more harm while 'improving' survival?"
+    ai_answer: "D-Rd was associated with more serious adverse events, particularly neutropenia and pneumonia, which should be weighed against the efficacy benefit."
+    blind_spot: "Misses that OS already nets out toxic deaths, and that deaths due to adverse events were similar at final (12% vs 11%)."
+    principle: "Overall survival counts every death, toxic or not; a positive OS difference already includes the harm."
+    answer: >-
+      Let me take the data part first. Serious adverse events were higher, 77% versus 70%, and deaths due to adverse events at the final analysis
+      were 12% versus 11% — similar. Overall survival counts every death, and it favours D-Rd: 53% versus 39% alive at seven years.
+      So the net is clearly positive. The extra harm is real and mostly infection, which is why prophylaxis and early vigilance matter.
+    followups:
+      - q: "What kind of deaths?"
+        a: "Infection is the main excess: in the pooled MAIA and ALCYONE analysis, grade 5 infections were 3.0% versus 1.5%."
+    sources: [S2, S4, S7]
+
+  - id: C09
+    branch: credible
+    persona: statistician
+    cynefin: clear
+    risk: 2
+    q: "How was randomization stratified, and could imbalance explain the result?"
+    principle: "Stratified randomization balances the strongest prognostic factors by design; chance imbalance shrinks as sample size grows."
+    answer: >-
+      Stratified by ISS stage, region and age; 737 patients, 1:1. Baseline characteristics were similar between arms.
+      Chance imbalance doesn't produce a PFS HR around 0.55 that is consistent across subgroups.
+    sources: [S2, L1, S5]
+
+  - id: C10
+    branch: credible
+    persona: ai_senior
+    cynefin: complicated
+    risk: 3
+    q: "Daratumumab shows up on SPEP. Couldn't response or progression be misclassified?"
+    ai_answer: "Daratumumab can interfere with SPEP and immunofixation, potentially affecting response assessment in IgG-kappa myeloma."
+    blind_spot: "Doesn't say which direction: the interference makes a true CR look like residual disease — a bias against D-Rd, not for it."
+    principle: "Daratumumab is itself an IgG-κ monoclonal antibody; on SPEP/IFE it can mimic residual M-protein, so it hides responses rather than creating them."
+    answer: >-
+      The interference is real — the label says daratumumab can be detected on SPEP and IFE in IgG-kappa patients. The direction matters:
+      it can make a true complete response look like residual disease. That biases against D-Rd, not for it.
+      In practice, a daratumumab-specific IFE reflex assay separates the drug from the disease.
+    sources: [L1]
+    verify: "Local availability of a daratumumab-specific IFE reflex assay"
+
+  - id: C11
+    branch: credible
+    persona: statistician
+    cynefin: complicated
+    risk: 3
+    q: "Did the OS curves separate early, or was there an early excess of deaths with D-Rd?"
+    principle: "A single HR assumes proportional hazards; early toxic deaths followed by late benefit produce crossing curves that a single HR hides."
+    answer: >-
+      It depends on how the curve behaves, so I show it rather than describe it. What the numbers allow me to say: grade 3/4 infection risk peaked
+      in the first six months in both arms, deaths due to adverse events were similar overall, and the OS HR stayed around 0.67 across three
+      analyses. A large early excess would not leave the HR that stable.
+    sources: [S4, S7]
+    verify: "Inspect the final OS Kaplan-Meier figure for early crossing (Facon, Leukemia 2026)"
+
+  - id: C12
+    branch: credible
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "Trial centres are expert centres. Will I get the same result in my clinic?"
+    principle: "Efficacy in a trial becomes effectiveness in practice only if patients stay on therapy at adequate dose; adherence and supportive care carry the result."
+    answer: >-
+      It depends mostly on keeping patients on treatment. MAIA ran at 176 hospitals in 14 countries, not only academic centres.
+      What erodes benefit in practice is early discontinuation — infection, steroid toxicity, logistics. So the transferable part is the
+      supportive care: prophylaxis, dex reduction, SC administration, early review in the first six months.
+    sources: [S2, S7]
+
+  - id: C13
+    branch: credible
+    persona: pharmacist
+    cynefin: clear
+    risk: 2
+    q: "Did both arms get the same lenalidomide and dexamethasone, or could the D-Rd arm simply have had more Rd?"
+    principle: "A treatment effect can be attributed to the added drug only if the background therapy was protocol-identical between arms."
+    answer: >-
+      The data are clear: both arms had the same backbone — lenalidomide 25 mg days 1-21 and dexamethasone 40 mg weekly, 20 mg if older than 75
+      or BMI under 18.5. On daratumumab days the dex served as premedication. The only planned difference was daratumumab.
+    sources: [L1, S2]
+    verify: "Delivered lenalidomide dose intensity by arm (MAIA safety tables)"
+
+  - id: C14
+    branch: credible
+    persona: payer
+    cynefin: complicated
+    risk: 2
+    q: "It's an industry-sponsored trial. Should a payer discount it?"
+    principle: "Sponsorship bias acts through design choices — comparator, endpoint, reporting — so judge those choices rather than the funder."
+    answer: >-
+      Judge the design, not the funder. MAIA was funded by Janssen, prospectively registered, with centrally assessed PFS and an objective OS endpoint.
+      The sponsor-shaped choice that matters is the comparator: Rd rather than VRd. That limits what it answers, not whether its answer is true.
+    sources: [S1, S2]
+
+# ───────────────────────── APPLICABLE ─────────────────────────
+  - id: A01
+    branch: applicable
+    persona: ai_senior
+    cynefin: complicated
+    risk: 5
+    attack: undermine
+    q: "Only a tiny fraction of MAIA patients were Asian. Why should this apply to Taiwanese patients?"
+    oneliner: "1% Asian in MAIA. Efficacy (CD38 biology) extrapolates; safety is personalised: dex 20 mg if BMI <18.5, zoster prophylaxis, early infection watch."
+    ai_answer: "Asian patients were under-represented in MAIA, but daratumumab efficacy has generally been consistent across ethnic groups, so results are considered applicable."
+    blind_spot: "Gives no number (1% Asian per the US label) and does not separate efficacy, which depends on biology, from tolerability, which depends on body size, frailty and care setting."
+    principle: "The efficacy of a target-directed antibody transfers when the target and disease biology are the same; tolerability depends on body size, comorbidity and infection exposure, which differ more between populations."
+    answer: >-
+      Fair: the label reports 1% Asian patients in MAIA, so MAIA alone cannot answer this. I split the question. Efficacy depends on CD38
+      biology, which isn't ethnic. Tolerability depends on body weight, frailty and infection exposure — and those I can adjust:
+      dexamethasone 20 mg for BMI under 18.5, zoster prophylaxis, vigilance for infection in the first six months.
+      So I extrapolate the efficacy and personalise the safety.
+    followups:
+      - q: "Any Asian data with daratumumab at all?"
+        a: "Asian-enrolling daratumumab trials and regional real-world series exist; have the specific citation ready."
+    sources: [L1, S7]
+    verify: "Cite Asian daratumumab data (e.g. Asia-Pacific trials or Taiwanese real-world series)"
+
+  - id: A02
+    branch: applicable
+    persona: community
+    cynefin: complicated
+    risk: 5
+    q: "My patient is 84 and frail. D-Rd, or something gentler?"
+    oneliner: "Frailty, not age. MAIA frail: PFS HR 0.64, OS CI crosses 1. IFM2017-03 (median age 81): DR, dex only 2 cycles, PFS 53.4 vs 22.5 mo."
+    principle: "Fitness, not age, predicts tolerance; dexamethasone contributes much of the toxicity in frail patients, so removing it can keep the antibody's benefit at lower cost."
+    answer: >-
+      It depends on frailty, not age. In MAIA's frail subgroup PFS favoured D-Rd, HR 0.64, but the OS confidence interval crossed 1.
+      The better evidence for the truly frail is IFM2017-03: median age 81, daratumumab-lenalidomide with dexamethasone only in the first two
+      cycles beat Rd — median PFS 53.4 versus 22.5 months. For my frail 84-year-old, that's DR, dexamethasone-sparing. IFM 2026 says the same.
+    followups:
+      - q: "What did IFM2017-03 cost in toxicity?"
+        a: "More grade 3-5 neutropenia, 55% vs 24%, but infections were similar, 19% vs 21%."
+    sources: [S5, S6, S14, S15]
+
+  - id: A03
+    branch: applicable
+    persona: statistician
+    cynefin: complicated
+    risk: 3
+    attack: undermine
+    q: "Frail patients had an OS HR of 0.79 with the CI crossing 1. So no survival benefit in the frail?"
+    principle: "A non-significant subgroup is absence of evidence, not evidence of absence; subgroups test interaction and are usually underpowered."
+    answer: >-
+      That's a subgroup result, and it's underpowered: frailty was assessed retrospectively from age, Charlson index and ECOG.
+      PFS, CR and MRD all favoured D-Rd in frail patients. What the data do support is that the OS gain is surest in non-frail
+      patients — HR 0.53 — and less certain in the frail. That's why I use the dex-sparing approach there.
+    sources: [S6, S14]
+
+  - id: A04
+    branch: applicable
+    persona: community
+    cynefin: complicated
+    risk: 4
+    q: "High-risk cytogenetics — is D-Rd enough?"
+    principle: "A consistent relative effect on a worse baseline still leaves a worse absolute outcome; high-risk disease is where deeper regimens have the most room to help."
+    answer: >-
+      The relative benefit holds — PFS HR 0.59 in high-risk cytogenetics. But high-risk patients still do worse in absolute terms.
+      In a fit high-risk patient I'd consider a quadruplet — D-VRd or Isa-VRd — where accessible. The isolated gain(1q) HR of 0.36 is
+      a small post hoc subgroup; I wouldn't build a decision on it.
+    followups:
+      - q: "Which cytogenetic abnormalities count as high risk here?"
+        a: "Use the trial's definition for the HR and today's IMWG definition for the patient; they are not the same, so say which you mean."
+    sources: [S5, S15, S11, S10]
+
+  - id: A05
+    branch: applicable
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "CrCl is 25. Can I still use D-Rd?"
+    principle: "Monoclonal antibodies are cleared by catabolism, not the kidney; lenalidomide is about 82% excreted unchanged in urine, so only lenalidomide needs adjusting."
+    answer: >-
+      Yes — adjust lenalidomide, not daratumumab. Label: CrCl under 30 not on dialysis, lenalidomide 15 mg every other day;
+      on dialysis, 5 mg daily, after dialysis on dialysis days. Daratumumab's population PK showed no meaningful effect of CrCl 15 to 89.
+      One caveat: patients this impaired were likely outside MAIA's eligibility, so efficacy here is extrapolated.
+    followups:
+      - q: "Will the dose go back up if renal function recovers?"
+        a: "Yes — re-dose to the new CrCl band; myeloma kidney often improves with response."
+    sources: [L3, L1]
+    verify: "MAIA renal eligibility threshold"
+
+  - id: A06
+    branch: applicable
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "ECOG 3. Would you still give D-Rd?"
+    principle: "Performance status caused by the disease can recover with response; performance status caused by comorbidity will not."
+    answer: >-
+      MAIA required ECOG 0 to 2, so this is outside the trial. It depends on why the patient is ECOG 3. If it's myeloma — bone pain,
+      hypercalcemia, renal failure — response often restores function and I'd treat. If it's comorbidity, I'd use the frail approach:
+      DR with dexamethasone limited to the first cycles.
+    sources: [S2, S14]
+
+  - id: A07
+    branch: applicable
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "MAIA called anyone 65+ transplant-ineligible. What about my fit 67-year-old?"
+    principle: "Eligibility labels are trial definitions, not biology; a fit patient defined as 'ineligible' by age alone may be better served by the transplant pathway."
+    answer: >-
+      MAIA defined ineligibility as age 65 or older, or comorbidity — so it includes fit patients many centres would transplant.
+      For them, the relevant comparison is the transplant pathway, not MAIA. If transplant is deferred, CEPHEUS — which enrolled
+      transplant-deferred patients — is the better trial to quote.
+    sources: [S2, S11]
+
+  - id: A08
+    branch: applicable
+    persona: statistician
+    cynefin: clear
+    risk: 2
+    q: "Is the benefit consistent in patients aged 75 and older?"
+    principle: "Consistency of direction across prespecified subgroups is the evidence; subgroup p-values are not."
+    answer: >-
+      The data are clear: PFS HR 0.59 in patients aged 75 or older. Grade 3/4 and serious adverse events were similar between arms in that group,
+      and discontinuation due to adverse events was lower with D-Rd.
+    sources: [S5]
+
+  - id: A09
+    branch: applicable
+    persona: community
+    cynefin: clear
+    risk: 2
+    q: "How sick were MAIA patients? Would my clinic population have qualified?"
+    principle: "Eligibility criteria filter out the sickest patients, so trial populations are fitter than clinic populations."
+    answer: >-
+      Median age 73, 44% aged 75 or older, 17% ECOG 2 or more, 1% Asian. Many clinic patients — worse renal function, ECOG 3,
+      serious comorbidity — would not have qualified. The efficacy signal transfers better than the safety profile.
+    sources: [L1]
+
+  - id: A10
+    branch: applicable
+    persona: payer
+    cynefin: clear
+    risk: 3
+    q: "Do NHI rules for daratumumab at relapse cover the same patients MAIA enrolled?"
+    principle: "Reimbursement criteria are written independently of trial eligibility; any mismatch shifts who can actually receive the drug."
+    answer: >-
+      Not exactly. MAIA allowed ECOG 0 to 2 — 17% were ECOG 2 or more. The NHI rule for daratumumab with Rd or Vd at relapse requires ECOG under 2.
+      So an ECOG-2 patient who could have entered MAIA would not qualify for reimbursed daratumumab at relapse.
+    sources: [L1, N1]
+
+# ───────────────────────── WORTH ─────────────────────────
+  - id: W01
+    branch: worth
+    persona: ai_senior
+    cynefin: clear
+    risk: 5
+    q: "OS hazard ratio 0.67 — so a third fewer patients die?"
+    oneliner: "HR is relative. Absolute: 7-yr OS 53.1% vs 39.3% (≈14 points, NNT ≈7, speaker's arithmetic). Median OS 90.3 vs 64.1 mo."
+    ai_answer: "Yes, an HR of 0.67 corresponds to a 33% reduction in the risk of death with D-Rd versus Rd."
+    blind_spot: "Converts a relative hazard into a proportion of patients. The absolute difference at seven years is 14 percentage points."
+    principle: "A hazard ratio compares instantaneous risk across the whole curve; it is not the proportion of patients saved."
+    answer: >-
+      Not quite. 0.67 means a 33% lower instantaneous risk of death, averaged over follow-up. The number a patient lives on is absolute:
+      at seven years, 53.1% versus 39.3% alive — about 14 percentage points, roughly one extra survivor at seven years for every
+      seven treated (speaker's arithmetic). Median OS 90.3 versus 64.1 months.
+    followups:
+      - q: "Isn't NNT 7 just an estimate?"
+        a: "Yes — it's time-specific and derived from Kaplan-Meier estimates. At five years it's about 8 (66.6% vs 53.6%)."
+    sources: [S4, S3]
+
+  - id: W02
+    branch: worth
+    persona: payer
+    cynefin: complicated
+    risk: 5
+    attack: undermine
+    q: "Treatment until progression for five or more years. Who pays for that in Taiwan?"
+    oneliner: "NHI 9.78 (eff. 2025-09-01): frontline dara only with VTd in transplant-eligible; otherwise at relapse with Rd/Vd. Rd frontline capped at 24 cycles (9.43). D-Rd up front ≈ self-pay."
+    principle: "The cost of continuous therapy scales with its efficacy: the longer it works, the longer it is paid for."
+    answer: >-
+      That's the paradox of continuous therapy. In Taiwan, under rule 9.78 effective 1 September 2025, first-line daratumumab is reimbursed
+      only with VTd for transplant-eligible patients; for everyone else it is reimbursed with Rd or Vd after failure of a bortezomib- or
+      lenalidomide-containing regimen. Frontline lenalidomide-dex for transplant-ineligible patients is covered, with prior authorization
+      every four cycles and a lifetime cap of 24 four-week cycles under rule 9.43. So D-Rd as tested in MAIA is largely self-pay up front here.
+    followups:
+      - q: "So what do most Taiwanese patients actually get?"
+        a: "Commonly an NHI-covered frontline regimen, with daratumumab at first relapse — which is exactly the sequencing question MAIA can't answer."
+    sources: [N1, N2]
+    verify: "Re-check 9.78 and 9.43 for revisions after the effective dates cited, as of the talk date"
+
+  - id: W03
+    branch: worth
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "What about quality of life on continuous triplet therapy?"
+    principle: "In a symptomatic cancer, disease control is itself a quality-of-life intervention; toxicity subtracts from it, so the net must be measured, not assumed."
+    answer: >-
+      Health-related quality of life was reported as improved and sustained with D-Rd in a MAIA HRQoL analysis — I'd quote the specific scale
+      from that paper. In patients 75 and older, discontinuation for adverse events was lower with D-Rd. In the frail, dropping
+      dexamethasone is the most effective quality-of-life move we have evidence for.
+    sources: [S16, S5, S14]
+    verify: "HRQoL scales and effect sizes (Perrot, Eur J Haematol 2025) — only the title was read"
+
+  - id: W04
+    branch: worth
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "Concretely, what extra toxicity does daratumumab add?"
+    principle: "Myeloma is already an immunodeficiency; an anti-CD38 antibody deepens it, so the excess toxicity is mainly cytopenia and infection, concentrated early."
+    answer: >-
+      Grade 3/4 neutropenia 50.0% versus 35.3% and pneumonia 13.7% versus 7.9% in the primary analysis. Pooled with ALCYONE, grade 3/4 infections
+      36.9% versus 22.4%, highest in the first six months, though exposure-adjusted rates were comparable. Infusion reactions occur in 37% at the
+      first IV infusion and 2% at the second. Infections caused discontinuation in only about 2%.
+    followups:
+      - q: "When is infection risk highest?"
+        a: "The first six months — that's where prophylaxis and dex reduction pay off most."
+    sources: [S1, S7, L1]
+
+  - id: W05
+    branch: worth
+    persona: statistician
+    cynefin: clear
+    risk: 3
+    q: "What's the number needed to treat?"
+    principle: "An NNT is only meaningful at a stated time point, because absolute differences change along the curve."
+    answer: >-
+      Speaker's arithmetic from published landmarks: at five years, 66.6% versus 53.6% alive — 13 points, NNT about 8.
+      At seven years, 53.1% versus 39.3% — 13.8 points, NNT about 7. These come from Kaplan-Meier estimates, not observed counts.
+    sources: [S3, S4]
+
+  - id: W06
+    branch: worth
+    persona: payer
+    cynefin: complex
+    risk: 4
+    q: "When the NHI lenalidomide cap runs out, what then?"
+    principle: "A reimbursement cap is a budget rule, not a biological stopping point; stopping continuous therapy early trades PFS for cost without trial evidence on the size of that trade."
+    answer: >-
+      We don't have randomized data for that. MAIA treated until progression; nobody has tested stopping at 24 cycles. My reasoning:
+      in a patient with sustained deep response, stopping is a defensible discussion; in a patient still responding slowly, I'd look for
+      self-pay continuation. The trials that will settle it are MRD-guided discontinuation studies.
+    followups:
+      - q: "Would you stop at 24 cycles if the patient can't pay?"
+        a: "I'd discuss it openly. In a sustained deep responder a pause is reasonable with close monitoring; it is not evidence-based either way."
+    sources: [N2, S3]
+
+  - id: W07
+    branch: worth
+    persona: community
+    cynefin: clear
+    risk: 3
+    q: "Weekly infusions for two months — isn't the visit burden too high for elderly patients?"
+    principle: "Dose intensity is front-loaded to saturate the target; maintenance needs far fewer visits, and the SC route removes most chair time."
+    answer: >-
+      The schedule is front-loaded: weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks.
+      Subcutaneous daratumumab takes 3 to 5 minutes. After six months it's one visit a month.
+    sources: [L1, L2]
+
+  - id: W08
+    branch: worth
+    persona: ai_senior
+    cynefin: clear
+    risk: 3
+    q: "The median PFS gain is about 27 months. Is that really transformative?"
+    ai_answer: "MAIA showed median PFS of 61.9 vs 34.4 months, a gain of approximately 27 months with D-Rd."
+    blind_spot: "Correct arithmetic, but leaves out what happened next: time to next treatment was not reached vs 42.4 months, and median OS rose by 26 months."
+    principle: "A median difference is one point on each curve; the downstream endpoints show whether the gain is carried forward."
+    answer: >-
+      The data are clear: 61.9 versus 34.4 months. What makes it matter is that it carried through — time to next treatment not reached versus
+      42.4 months, and median overall survival 90.3 versus 64.1 months. A PFS gain that becomes a 26-month OS gain is the strongest kind.
+    sources: [S3, S4]
+
+  - id: W09
+    branch: worth
+    persona: payer
+    cynefin: complex
+    risk: 3
+    q: "Is D-Rd cost-effective in Taiwan?"
+    principle: "Cost-effectiveness of continuous therapy is driven by price × treatment duration; better efficacy lengthens duration and can worsen the ratio even as outcomes improve."
+    answer: >-
+      I don't have a Taiwan cost-effectiveness analysis for frontline D-Rd. What I can say is what drives it: drug price multiplied by a
+      median time on treatment that MAIA made much longer. That's why payers restrict duration or line of therapy rather than the drug.
+    sources: [N1]
+    verify: "Search CDE/NHI HTA reports for frontline D-Rd"
+
+  - id: W10
+    branch: worth
+    persona: community
+    cynefin: confused
+    risk: 2
+    q: "So with a seven-and-a-half-year median, are we curing these patients now?"
+    principle: "A cure shows as a plateau in the survival curve; a long median with a curve that keeps falling is prolonged control, not cure."
+    answer: >-
+      If I understand correctly, you're asking whether a 7.5-year median OS means cure — is that right? Then no: half the patients in the D-Rd
+      arm had died by 90 months, and the PFS curve keeps falling. It's prolonged control. Whether a subset with sustained MRD negativity is
+      functionally cured is an open question.
+    sources: [S4, S3]
+
+# ───────────────────────── POSITION ─────────────────────────
+  - id: P01
+    branch: position
+    persona: ai_senior
+    cynefin: complicated
+    risk: 5
+    attack: rebut
+    q: "Isn't D-VRd now the standard for transplant-ineligible patients? The FDA approved it."
+    oneliner: "Quads beat VRd (CEPHEUS HR 0.57, IMROZ 0.60), not D-Rd; OS immature. IFM 2026: DRd backbone; fit → add V; frail → DR."
+    ai_answer: "Yes. CEPHEUS showed D-VRd improved MRD negativity and PFS over VRd, and the FDA approved D-VRd for transplant-ineligible NDMM, making quadruplets the new standard for fit patients."
+    blind_spot: "CEPHEUS compared with VRd, not D-Rd; OS in the transplant-ineligible subgroup is immature (HR 0.66, CI crosses 1); IMROZ excluded patients over 80; IFM 2026 keeps DRd as backbone; quadruplets are not NHI-reimbursed here."
+    principle: "A regimen is shown superior only to its comparator, and adding a drug helps only the patients who can tolerate it."
+    answer: >-
+      It depends on fitness. Quadruplets beat VRd — CEPHEUS PFS HR 0.57, IMROZ HR 0.60 — and the FDA approved D-VRd in January 2026.
+      But neither compared with D-Rd, overall survival is still immature, and IMROZ enrolled only up to age 80. IFM 2026 keeps DRd as
+      the backbone and adds bortezomib for fit patients. So: fit, consider a quadruplet; intermediate, D-Rd; frail, DR.
+    followups:
+      - q: "What's the CEPHEUS transplant-ineligible OS?"
+        a: "HR 0.66, 95% CI 0.42 to 1.03 — favourable but immature."
+    sources: [S11, S12, S10, S15, F1]
+
+  - id: P02
+    branch: position
+    persona: statistician
+    cynefin: complicated
+    risk: 3
+    q: "BENEFIT added bortezomib to Isa-Rd and doubled MRD negativity. Doesn't that settle quadruplet over triplet?"
+    principle: "A surrogate endpoint shows activity; it settles superiority only once the surrogate is validated or survival matures."
+    answer: >-
+      It settles activity, not yet survival. 18-month MRD negativity was 53% versus 26%, in patients aged 65 to 79.
+      At 23.5 months there was no survival difference — the data were immature. It's the most direct triplet-versus-quadruplet trial we have,
+      and it supports adding bortezomib in fit patients.
+    sources: [S13]
+
+  - id: P03
+    branch: position
+    persona: community
+    cynefin: complex
+    risk: 4
+    q: "Shouldn't I save daratumumab for first relapse?"
+    principle: "Using the best drug first versus saving it is a bet on attrition: patients who never reach second line never receive the saved drug."
+    answer: >-
+      We don't have a randomized sequencing trial. My reasoning: in older patients a meaningful share never receive second-line therapy,
+      so 'saving' a drug often means never using it. MAIA's survival gain reflects using it when it's most likely to be received.
+      In Taiwan the rules push daratumumab to relapse for most transplant-ineligible patients — so for many, the real decision is made by reimbursement.
+    followups:
+      - q: "Isn't the relapse harder if daratumumab is used first?"
+        a: "Yes — refractoriness to both drugs at first relapse is the trade. The OS data say the trade was worth it in MAIA."
+    sources: [S4, N1]
+    verify: "Attrition rate by line in transplant-ineligible NDMM — cite (e.g. Fonseca, Oncologist 2023)"
+
+  - id: P04
+    branch: position
+    persona: payer
+    cynefin: clear
+    risk: 3
+    q: "Daratumumab or isatuximab — are they interchangeable?"
+    principle: "Same target, different molecules and different trials; evidence attaches to the regimen tested, not to the target."
+    answer: >-
+      Same target, different evidence. MAIA tested daratumumab with Rd; isatuximab's frontline evidence is with VRd (IMROZ) and in BENEFIT.
+      Under NHI, isatuximab and daratumumab are one-or-the-other — switching is allowed only for intolerance, under rule 9.108.
+    sources: [S10, S13, N3]
+
+  - id: P05
+    branch: position
+    persona: statistician
+    cynefin: complicated
+    risk: 3
+    q: "How much should I trust the indirect comparison of D-Rd versus VRd?"
+    principle: "Anchored indirect comparisons preserve randomization within each trial but inherit every unmeasured difference between trials."
+    answer: >-
+      Moderately. It used patient-level data from both trials, harmonized to age 65 or older, with Rd as the common anchor. HRs versus Rd:
+      D-Rd 0.52, VRd 0.88 with a CI crossing 1 in that harmonized population; anchored D-Rd versus VRd 0.59.
+      Unmeasured differences — era, VRd schedule, subsequent therapy — remain. Consistent with D-Rd being at least as good, not proof.
+    sources: [S9, S8]
+    verify: "ITC funding and author affiliations — check disclosures"
+
+  - id: P06
+    branch: position
+    persona: community
+    cynefin: complicated
+    risk: 4
+    q: "After progression on D-Rd, what's left?"
+    principle: "Progression on continuous therapy makes the patient refractory to every drug in it, so the next line must change class."
+    answer: >-
+      Patients progress refractory to both lenalidomide and anti-CD38. So second line switches class: a proteasome inhibitor with pomalidomide
+      or carfilzomib-based regimens, and later BCMA- or GPRC5D-directed therapy. That's the price of using our strongest combination first:
+      the first relapse is harder to treat.
+    followups:
+      - q: "Does anti-CD38 retreatment work?"
+        a: "Response to re-exposure after progression on an anti-CD38 is limited; I don't plan on it."
+    sources: []
+    verify: "Cite relapse options after D-Rd (NCCN Multiple Myeloma, current version) and local reimbursement"
+
+  - id: P07
+    branch: position
+    persona: ai_senior
+    cynefin: clear
+    risk: 3
+    q: "What do current guidelines say?"
+    ai_answer: "NCCN and ESMO list D-Rd as a preferred regimen for transplant-ineligible NDMM, with quadruplets increasingly recommended for fit patients."
+    blind_spot: "Without a version date, a guideline quote can be months out of date; the latest European statement (IFM 2026) frames D-Rd as the backbone with additions by fitness."
+    principle: "A guideline position is only as current as its version date."
+    answer: >-
+      The most recent statement I've read is IFM 2026: DRd remains the transplant-ineligible backbone; fit patients can add bortezomib,
+      as Isa-VRd or D-VRd; frail patients get DR without dexamethasone. I'd quote NCCN only with its version number.
+    sources: [S15]
+    verify: "NCCN Multiple Myeloma current version — category and preference of D-Rd"
+
+  - id: P08
+    branch: position
+    persona: community
+    cynefin: complex
+    risk: 3
+    q: "Can I stop D-Rd in a patient with sustained MRD negativity?"
+    principle: "Stopping is safe only if the residual disease left behind does not regrow faster than it is detected; that has to be tested prospectively."
+    answer: >-
+      We don't have data from MAIA to support stopping — it treated until progression, and sustained MRD negativity was 16.8%. My reasoning:
+      sustained MRD negativity identifies the patients most likely to tolerate a pause, but MRD-guided discontinuation is investigational.
+      I'd discuss it, not recommend it.
+    sources: [S3]
+
+  - id: P09
+    branch: position
+    persona: ai_senior
+    cynefin: complex
+    risk: 3
+    q: "Bispecifics and CAR-T are moving to first line. Isn't MAIA already obsolete?"
+    ai_answer: "Bispecific antibodies and CAR-T are being studied in newly diagnosed myeloma and may change first-line therapy, though D-Rd remains a standard option for now."
+    blind_spot: "Names no benchmark. The bar any new first-line strategy must clear in these patients is MAIA's 7.5-year median OS."
+    principle: "A new therapy displaces a standard only after it beats it on durable endpoints; the incumbent's mature OS is the benchmark."
+    answer: >-
+      Not yet. First-line T-cell-redirecting trials are ongoing; IFM 2026 lists them as investigational. MAIA has given us a 7.5-year
+      median overall survival — that's the benchmark any new first-line strategy for these patients now has to beat.
+    sources: [S15, S4]
+
+  - id: P10
+    branch: position
+    persona: payer
+    cynefin: complicated
+    risk: 4
+    q: "Given NHI rules, what is the realistic first line for a transplant-ineligible patient in Taiwan?"
+    principle: "Evidence ranks regimens; reimbursement decides access; the realistic plan sequences the best reimbursed options."
+    answer: >-
+      It depends on what the patient can fund. Within NHI: frontline Rd is covered with a 24-cycle lifetime cap, and daratumumab becomes
+      available with Rd or Vd after failure of a lenalidomide- or bortezomib-containing regimen. If the patient can self-pay,
+      D-Rd up front has the strongest survival data. I make that trade-off explicit to the patient.
+    followups:
+      - q: "Would you advise a patient to self-pay for D-Rd?"
+        a: "I present the survival gain and the cost honestly and let the patient decide; I don't push either way."
+    sources: [N1, N2]
+    verify: "Frontline bortezomib-based NHI coverage for transplant-ineligible patients — check current rule"
+
+  - id: P11
+    branch: position
+    persona: pharmacist
+    cynefin: complicated
+    risk: 2
+    q: "If we move a fit patient from D-Rd to D-VRd, what changes for pharmacy and monitoring?"
+    principle: "Each added drug brings its own toxicity profile; bortezomib adds peripheral neuropathy and a fixed induction schedule."
+    answer: >-
+      It depends on the regimen's structure. In CEPHEUS, D-VRd was given for eight cycles, then D-Rd until progression — so the added work is the
+      bortezomib induction: more visits and neuropathy monitoring. After induction, the regimen converges on D-Rd.
+    sources: [S11]
+    verify: "Bortezomib schedule and neuropathy rates in CEPHEUS (full text)"
+
+# ───────────────────────── PRACTICE ─────────────────────────
+  - id: R01
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 5
+    q: "What is the daratumumab IV dose and schedule in D-Rd?"
+    oneliner: "16 mg/kg IV: weekly wk 1-8, q2w wk 9-24, q4w wk 25+ until PD (label §2.2)."
+    principle: "Dosing is front-loaded to saturate CD38 target binding, after which less frequent dosing maintains exposure."
+    answer: >-
+      The label is specific: 16 mg/kg IV, weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks from week 25
+      until progression. In MAIA terms: weekly cycles 1-2, every 2 weeks cycles 3-6, every 4 weeks from cycle 7.
+    followups:
+      - q: "Missed dose?"
+        a: "Give it as soon as possible and shift the schedule to keep the dosing interval."
+    sources: [L1, S2]
+
+  - id: R02
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 5
+    q: "CrCl is 45. What lenalidomide dose?"
+    oneliner: "CrCl 30-60: lenalidomide 10 mg daily D1-21; may escalate to 15 mg after 2 cycles. <30: 15 mg q48h; dialysis 5 mg daily post-HD."
+    principle: "Lenalidomide is ~82% excreted unchanged in urine, and its clearance falls linearly with CrCl, so the dose must follow renal function."
+    answer: >-
+      The label is specific: CrCl 30 to 60, lenalidomide 10 mg once daily, days 1-21 of 28. If 10 mg is tolerated without dose-limiting toxicity
+      for two cycles, you can escalate to 15 mg.
+    followups:
+      - q: "And if CrCl falls below 30?"
+        a: "15 mg every other day; on dialysis, 5 mg daily, after dialysis on dialysis days."
+    sources: [L3]
+
+  - id: R03
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "Does daratumumab need a renal or hepatic dose adjustment?"
+    principle: "IgG antibodies are cleared by target-mediated disposition and proteolytic catabolism, not by glomerular filtration or hepatic metabolism."
+    answer: >-
+      No renal adjustment. Population PK showed no clinically important effect of CrCl 15 to 89 or mild hepatic impairment; the effect of severe hepatic
+      impairment is unknown. There are no dose reductions for daratumumab at all — you withhold it, not reduce it.
+    followups:
+      - q: "And severe hepatic impairment?"
+        a: "Not studied. I'd give it with closer monitoring and say the data don't exist."
+    sources: [L1]
+
+  - id: R04
+    branch: practice
+    persona: community
+    cynefin: clear
+    risk: 4
+    q: "What dexamethasone dose for an 80-year-old?"
+    principle: "Dexamethasone's toxicity (infection, glucose, myopathy, delirium) rises with age and low body mass while its anti-myeloma contribution is modest in the antibody era."
+    answer: >-
+      In MAIA, dexamethasone was 40 mg weekly, reduced to 20 mg weekly for patients older than 75 or with BMI under 18.5. On daratumumab days
+      the dex dose serves as the premedication. For a frail patient, IFM2017-03 supports stopping dexamethasone after the first two cycles.
+    followups:
+      - q: "Does lowering dex lose efficacy?"
+        a: "In the frail, IFM2017-03 removed dex after two cycles and still beat Rd on PFS."
+    sources: [L1, S14]
+
+  - id: R05
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "What premedication before IV daratumumab?"
+    principle: "First-dose reactions are driven by cytokine release on binding; steroid, antipyretic and antihistamine blunt it."
+    answer: >-
+      One to three hours before every infusion: a corticosteroid — in D-Rd, the background dexamethasone 20 mg counts — plus acetaminophen
+      650 to 1,000 mg and diphenhydramine 25 to 50 mg. After the infusion, consider low-dose oral steroid the next day unless background dex is given that day.
+    followups:
+      - q: "Can premedication be reduced later?"
+        a: "Reactions are mainly a first-infusion event; institutional protocols often taper the antihistamine and antipyretic after the first few doses."
+    sources: [L1]
+
+  - id: R06
+    branch: practice
+    persona: community
+    cynefin: chaotic
+    risk: 5
+    q: "We started daratumumab without a type and screen and now the patient needs a transfusion. What do we do?"
+    oneliner: "ABO/RhD typing unaffected. Emergency: non-crossmatched ABO/RhD-compatible RBCs. Tell blood bank → DTT-treated cells. IAT interference ≤6 mo."
+    principle: "CD38 is expressed on red cells; bound daratumumab makes the indirect antiglobulin test panreactive, masking alloantibodies — but ABO and RhD typing are unaffected."
+    answer: >-
+      First the urgent part: ABO and RhD typing are not affected. If the transfusion is an emergency, give non-cross-matched ABO/RhD-compatible
+      red cells per your blood bank. Then tell the blood bank the patient is on daratumumab; they can screen using DTT-treated red cells.
+      The interference can persist up to six months after the last dose. Next time, type and screen before the first dose.
+    followups:
+      - q: "How long will the blood bank problem last?"
+        a: "Up to six months after the last daratumumab dose, per the label."
+    sources: [L1]
+
+  - id: R07
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "Zoster prophylaxis — when to start and for how long?"
+    principle: "Latent VZV reactivates when cellular immunity falls; prophylaxis must cover the period of immune suppression and its recovery."
+    answer: >-
+      The label is specific: start antiviral prophylaxis within one week of starting daratumumab and continue for three months after treatment ends.
+      Agent and dose follow local practice — commonly acyclovir or valacyclovir.
+    followups:
+      - q: "Why three months after stopping?"
+        a: "Cellular immunity takes months to recover; reactivation risk outlasts the drug."
+    sources: [L1]
+    verify: "Antiviral agent and dose per institutional protocol"
+
+  - id: R08
+    branch: practice
+    persona: community
+    cynefin: complicated
+    risk: 4
+    q: "The patient is anti-HBc positive. Can I give daratumumab?"
+    principle: "Loss of immune control lets HBV reactivate from cccDNA in previously infected hepatocytes; risk depends on serostatus and is mitigated by monitoring or antiviral prophylaxis."
+    answer: >-
+      Yes, with a plan. The label reports HBV reactivation in under 1% of daratumumab-treated patients, including fatal cases.
+      It depends on serostatus: HBsAg-positive patients need antiviral prophylaxis; HBsAg-negative, anti-HBc-positive patients need either
+      prophylaxis or HBV DNA monitoring, per hepatology practice. Screen everyone before the first dose.
+    followups:
+      - q: "If I choose monitoring, how often?"
+        a: "HBV DNA and ALT at regular intervals — commonly every 1-3 months — and start antivirals on detectable DNA."
+    sources: [L1]
+    verify: "HBV screening/prophylaxis recommendation — cite ASCO/AASLD or Taiwan hepatology guidance"
+
+  - id: R09
+    branch: practice
+    persona: community
+    cynefin: complicated
+    risk: 4
+    q: "Which thromboprophylaxis with lenalidomide-dexamethasone?"
+    principle: "IMiDs are prothrombotic and dexamethasone adds to it; the prophylaxis intensity should match the patient's thrombotic risk."
+    answer: >-
+      The label carries a boxed warning for venous and arterial thrombosis with lenalidomide plus dexamethasone and recommends antithrombotic
+      prophylaxis. Which agent depends on risk: aspirin for standard-risk patients, LMWH or a DOAC for higher-risk patients, per IMWG-style risk
+      assessment.
+    followups:
+      - q: "Does adding daratumumab change thrombotic risk?"
+        a: "The thrombotic driver is lenalidomide plus dexamethasone; prophylaxis decisions follow those two."
+    sources: [L3]
+    verify: "Cite thromboprophylaxis risk model (IMWG / ASCO) and DOAC data"
+
+  - id: R10
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "ANC drops to 800 on day 14. What do I change?"
+    principle: "Lenalidomide is myelosuppressive and dose-dependent; daratumumab is not dose-reduced, so the adjustment is to lenalidomide."
+    answer: >-
+      The label is specific: ANC below 1,000 — interrupt lenalidomide and check counts weekly. When ANC is back to at least 1,000: if neutropenia
+      was the only toxicity, resume at 25 mg or the starting dose; if there were other toxicities, resume one dose level lower, never below 2.5 mg.
+      Daratumumab isn't reduced; withhold it if needed for count recovery.
+    followups:
+      - q: "G-CSF instead of holding?"
+        a: "Commonly used to maintain dose intensity, per institutional practice; the label's rule is to interrupt below 1,000."
+    sources: [L3, L1]
+
+  - id: R11
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 3
+    q: "Platelets fall below 30,000. What then?"
+    principle: "Thrombocytopenia from lenalidomide is dose-dependent and reversible; dose de-escalation is stepwise."
+    answer: >-
+      Interrupt lenalidomide and check counts weekly. When platelets return to at least 30,000, resume at the next lower dose. For each subsequent drop,
+      repeat — never below 2.5 mg daily.
+    sources: [L3]
+
+  - id: R12
+    branch: practice
+    persona: community
+    cynefin: clear
+    risk: 4
+    q: "How common are infusion reactions, and how do I run the first infusion?"
+    principle: "Infusion reactions are driven by antigen burden and are largely a first-exposure phenomenon; slow first infusion or SC route reduces them."
+    answer: >-
+      Infusion reactions occurred in 37% at the first IV infusion, 2% at the second and 6% cumulatively after that. First dose: 1,000 mL,
+      start at 50 mL/h, increase by 50 mL/h every hour to a maximum of 200 mL/h — or split 8 mg/kg over days 1 and 2. With subcutaneous
+      daratumumab, systemic administration reactions were 7% at the first injection.
+    followups:
+      - q: "What if a reaction happens?"
+        a: "Interrupt, treat, and once symptoms resolve restart at no more than half the rate at which it occurred; permanently stop for grade 4."
+    sources: [L1, L2]
+
+  - id: R13
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 3
+    q: "MAIA used IV. Can I use subcutaneous daratumumab with Rd?"
+    principle: "Hyaluronidase allows a large fixed SC dose to be absorbed; a fixed dose achieves therapeutic exposure across body weights."
+    answer: >-
+      Yes. MAIA used IV 16 mg/kg, but the subcutaneous label includes the D-Rd combination at 1,800 mg with 30,000 units hyaluronidase,
+      given over 3 to 5 minutes into the abdomen, on the same schedule.
+    sources: [L2, S2]
+
+  - id: R14
+    branch: practice
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "My IgG-kappa patient has a persistent small M-spike on daratumumab. Is it residual disease?"
+    principle: "Daratumumab is an IgG-κ protein; at low M-protein levels it can be the drug rather than the disease."
+    answer: >-
+      It depends on the isotype and the level. In IgG-kappa myeloma a small persistent band may be daratumumab itself — the label warns of
+      false-positive SPE and IFE. A daratumumab-specific IFE reflex assay, or marrow assessment, settles whether the patient is in CR.
+    sources: [L1]
+    verify: "Local availability of daratumumab-specific IFE reflex assay"
+
+  - id: R15
+    branch: practice
+    persona: community
+    cynefin: complicated
+    risk: 3
+    q: "How do I reduce infection risk on D-Rd?"
+    principle: "Risk is front-loaded: active disease, high-dose steroid and new anti-CD38 exposure coincide in the first months."
+    answer: >-
+      Concentrate effort early — in pooled MAIA and ALCYONE data, grade 3/4 infections peaked in the first six months. Zoster prophylaxis per label,
+      HBV screening, vaccination before or early in therapy, dexamethasone reduction in older or underweight patients, and IVIG for patients with
+      recurrent serious infections and hypogammaglobulinemia.
+    sources: [S7, L1]
+    verify: "IVIG and vaccination recommendations — cite IMWG infection guidance"
+
+  - id: R16
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 4
+    q: "What pregnancy-prevention requirements apply to lenalidomide?"
+    principle: "Thalidomide analogues are teratogenic as a class; exposure prevention is enforced through a restricted-distribution program."
+    answer: >-
+      Lenalidomide carries a boxed warning for embryo-fetal toxicity and is distributed under a restricted program in the US; in Taiwan a risk
+      management plan applies. Pregnancy testing and contraception are required for patients who can become pregnant, and lenalidomide is present
+      in semen, so male patients need condoms.
+    followups:
+      - q: "Male patients too?"
+        a: "Yes — lenalidomide is present in semen, so condoms are required even after vasectomy, per the US program."
+    sources: [L3]
+    verify: "Taiwan lenalidomide RMP requirements (TFDA 仿單 / 風險管理計畫)"
+
+  - id: R17
+    branch: practice
+    persona: payer
+    cynefin: clear
+    risk: 3
+    q: "Does NHI cover subcutaneous daratumumab?"
+    principle: "Reimbursement attaches to the listed product and indication; a new route needs its own listing."
+    answer: >-
+      Yes, within the same indications — rule 9.78, as revised effective 1 September 2025, names both Darzalex IV and subcutaneous injection.
+      The indication limits still apply: frontline only with VTd for transplant-eligible patients.
+    sources: [N1]
+
+  - id: R18
+    branch: practice
+    persona: pharmacist
+    cynefin: clear
+    risk: 3
+    q: "Does daratumumab affect ABO typing or the crossmatch?"
+    principle: "Daratumumab binds CD38 on red cells, not the ABO or RhD antigens; it interferes with antibody screening and crossmatch, not with typing."
+    answer: >-
+      ABO and RhD typing are not affected. The antibody screen and crossmatch are: the indirect antiglobulin test turns positive and can stay
+      positive up to six months after the last dose. Blood banks use DTT-treated red cells to work around it.
+    sources: [L1]
+
+  - id: R19
+    branch: practice
+    persona: ai_senior
+    cynefin: clear
+    risk: 4
+    q: "The AI told me: daratumumab 16 mg/kg weekly for 8 weeks, then monthly. Correct?"
+    ai_answer: "Daratumumab is given at 16 mg/kg IV weekly for 8 weeks, then every 4 weeks until progression."
+    blind_spot: "Drops the every-2-week phase in weeks 9 to 24 — a dosing error if followed."
+    principle: "The schedule steps down in three phases as target binding saturates; skipping a phase under-doses during the period of highest disease burden."
+    answer: >-
+      Not quite — there are three phases, not two. Weekly for weeks 1 to 8, every two weeks for weeks 9 to 24, then every four weeks from week 25.
+      Skipping the every-two-week phase under-doses exactly when disease burden is highest.
+    followups:
+      - q: "Is it the same for SC?"
+        a: "Same schedule; the dose is a fixed 1,800 mg instead of 16 mg/kg."
+    sources: [L1, L2]
+
+  - id: R20
+    branch: practice
+    persona: statistician
+    cynefin: complicated
+    risk: 2
+    q: "How many patients needed lenalidomide dose reductions, and does reduced dose intensity undermine efficacy?"
+    principle: "In continuous therapy, duration on treatment contributes more to benefit than full dose intensity; dose reduction that keeps a patient on therapy usually preserves efficacy."
+    answer: >-
+      I'd quote the reduction rates from MAIA's safety tables. The principle matters more than the exact number: in continuous therapy, staying on
+      treatment carries the benefit. A patient on 10 or 15 mg for years usually does better than one on 25 mg who stops at month four.
+    sources: [L3]
+    verify: "Lenalidomide dose-reduction rates by arm (MAIA full text/supplement)"
