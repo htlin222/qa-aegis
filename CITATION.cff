@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use Aegis, please cite it as below."
+title: "Aegis — Q&A Defense Kit for Medical Presentations (QA 防禦術)"
+abstract: >-
+  A Claude skill that prepares oncology and hematology speakers for audience questions:
+  MECE question sweep across five branches and five questioner personas, simulation of
+  AI-generated answers and their blind spots, Cynefin triage, Argdown claim maps, and
+  first-principles answers with sourced numbers and doses, built into HTML, PPTX and PDF.
+type: software
+authors:
+  - alias: htlin222
+repository-code: "https://github.com/htlin222/qa-aegis"
+license: MIT
+version: 0.1.0
+date-released: 2026-11-13
+keywords:
+  - presentation Q&A
+  - medical education
+  - journal club
+  - oncology
+  - hematology
+  - Claude skill
+  - MECE
+  - Cynefin
+  - Argdown
+  - first principles
